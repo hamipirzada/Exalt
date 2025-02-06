@@ -28,30 +28,14 @@ export const Navbar = () => {
           {/* Logo Section */}
           <div className="flex items-center">
             <Link to="/home" className="flex items-center">
-              <img src={logo} alt="logo" className="h-12 w-12 mr-2" />
-              <h1 className="font-bold lg:text-2xl sm:xl">ExaltSystem</h1>
+              <img src={logo} alt="logo" className="h-12 w-12 mr-2 mb-2" />
+              <h1 className="font-bold lg:text-2xl sm:xl">GoExalt System</h1>
             </Link>
           </div>
 
 
 
-          
-         {/* themes */}
-<div className="relative">
-  <button
-    onClick={toggleDropdown}
-    className="font-bold text-sm mx-4 hover:text-accent transition-colors duration-300"
-  >
-    THEMES
-  </button>
-
-  {isDropdownOpen && (
-    <div className="absolute right-0 mt-2 w-[400px] bg-slate-800 text-white rounded-lg shadow-lg flex flex-col">
-      <ThemeProvider />
-    </div>
-  )}
-</div>
-{/* themes end */}
+    
 
 
           {/* Desktop Links */}

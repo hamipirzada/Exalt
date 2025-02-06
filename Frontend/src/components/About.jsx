@@ -62,7 +62,7 @@ const About = () => {
     <div className="container mx-auto py-16 px-4 sm:px-6  ">
   {/* Image Here */}
   <div className="flex flex-col">
-    <div className="relative w-full h-[80vh] mb-16 bg-cover bg-no-repeat flex items-center justify-center text-white text-xl">
+    <div className="relative w-full h-[60vh]  bg-cover bg-no-repeat flex items-center justify-center text-white text-xl">
       {/* Background Animation */}
       <div className="absolute w-full inset-0 overflow-hidden flex items-center justify-center">
   
@@ -75,7 +75,7 @@ const About = () => {
 
       {/* Text Content */}
       <div className="relative z-10 text-center">
-        <h1 className="text-white text-5xl font-extrabold" data-aos="fade-left">ABOUT US</h1>
+        <h1 className="text-white text-5xl mt-28 font-extrabold" data-aos="fade-left">ABOUT US</h1>
       </div>
 
       {/* Overlay for Readability */}
@@ -84,7 +84,7 @@ const About = () => {
   </div>
   {/* Images End Here */}
 
-  <div className="flex justify-center gap-7 sm:gap-3" data-aos="fade-up">
+  <div className="flex justify-center gap-7 sm:gap-3" >
     {Object.keys(tabContent).map((tab) => (
       <Tab
         key={tab}
@@ -132,7 +132,7 @@ const About = () => {
       <div className="w-full flex flex-col items-center relative">
   {/* Our Story Section */}
   <div className="relative mb-12">
-    <div className="w-full max-w-2xl p-8 rounded-2xl bg-gradient-to-r from-indigo-500  to-black shadow-lg text-center">
+    <div className="w-full max-w-2xl p-8 rounded-2xl bg-gradient-to-r from-indigo-500  to-pink-400 shadow-lg text-center">
       <h1 className="text-4xl font-bold text-white mb-4">Our Story</h1>
       <p className="text-lg text-gray-200" data-aos="fade-left">
         Great companies are born from dreams and strength of will. The story of a company is made up of men, ideas, challenges, investments, sacrifices, and progress.

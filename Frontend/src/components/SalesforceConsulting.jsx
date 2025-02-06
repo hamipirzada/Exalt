@@ -21,9 +21,9 @@ const SalesforceConsulting = () => {
                   src={salesforce}
                   alt=""
                 />
-                <h1 className="relative lg:text-5xl font-extrabold  z-10 mt-14 text-black sm:text-xl">
+                {/* <h1 className="relative lg:text-5xl font-extrabold  z-10 mt-14 text-black sm:text-xl">
                   SALESFORCE CONSULTING
-                </h1>
+                </h1> */}
               </div>
 
 
@@ -112,7 +112,7 @@ const SalesforceConsulting = () => {
 
      
         
-  <p className="text-center ml-10 w-[90%] bg-gradient-to-r from-gray-500 via-lime-700 to-black text-lg mb-8">
+  <p className="text-center ml-10 w-[90%] bg-gradient-to-r from-gray-500 via-lime-700 text-lg mb-8">
     If you plan to implement Salesforce or improve your existing solution, ScienceSoft provides comprehensive consulting, which includes:
   </p>
 

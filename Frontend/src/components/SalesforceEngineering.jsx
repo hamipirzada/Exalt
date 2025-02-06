@@ -31,9 +31,9 @@ const SalesforceEngineering = () => {
               src={salesforce}
                alt="Salesforce Training Background"
             />
-              <h1 className="relative uppercase lg:text-5xl font-extrabold  z-10 mt-12 text-black sm:text-xl overflow-y-hidden">
+              {/* <h1 className="relative uppercase lg:text-5xl font-extrabold  z-10 mt-12 text-black sm:text-xl overflow-y-hidden">
                 SALESFORCE DATA-ENGINEERING & Integrations
-                </h1>
+                </h1> */}
           </div>
                 
                 
@@ -188,7 +188,7 @@ const SalesforceEngineering = () => {
    <div className="lg:w-2/3  flex flex-col justify-center items-start lg:items-start text-center lg:text-left">
    <h1 className="text-3xl font-bold mb-4">Parveez Ahmad</h1>
    <p className='text-2xl text-accent'>Director</p>
-   <p className="text-sm text-gray-300">
+   <p className="text-sm ">
    Parveez Ahmad has over 20 years of experience delivering integration strategies and architectures for many prestigious clients. At Exalt System, He leads the delivery of large business transformations involving MuleSoft integrations
    </p>
    </div>

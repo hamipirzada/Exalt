@@ -17,15 +17,15 @@ const SalesforceDevelopment = () => {
             src={salesforce}
             alt=""
           />
-          <h1 className="relative text-5xl font-extrabold  z-10 mt-12 text-black">
+          {/* <h1 className="relative text-5xl font-extrabold  z-10 mt-12 text-black">
             SALESFORCE DEVELOPMENT
-          </h1>
+          </h1> */}
         </div>
 
 
         <div>
-        <h1 className="text-center text-4xl font-bold mt-10">Salesforce®️ Development</h1>
-        <p className="text-center text-xl mt-5">From startups to enterprises, we help organizations make more out of their Salesforce CRM. We are end-to-end Salesforce experts. And yes, we will forever redefine how you use Salesforce®️.</p>
+        <h1 className="text-center text-4xl font-bold mt-10">Salesforce Development</h1>
+        <p className="text-center text-xl mt-5">From startups to enterprises, we help organizations make more out of their Salesforce CRM. We are end-to-end Salesforce experts. And yes, we will forever redefine how you use Salesforce.</p>
     </div>
 
 

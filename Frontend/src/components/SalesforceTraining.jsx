@@ -29,9 +29,9 @@ const SalesforceTraining = () => {
                   src={salesforce}
                   alt="Salesforce Training Background"
                 />
-                <h1 className="relative lg:text-5xl font-extrabold  z-10 mt-12 text-black sm:text-xl overflow-y-hidden">
+                {/* <h1 className="relative lg:text-5xl font-extrabold  z-10 mt-12 text-black sm:text-xl overflow-y-hidden">
                   SALESFORCE TRAINING
-                </h1>
+                </h1> */}
         </div>
 
 

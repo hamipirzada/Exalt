@@ -52,9 +52,9 @@ const SalesforceClm = () => {
                           src={salesforce}
                           alt="Salesforce Training Background"
                         />
-                        <h1 className="relative uppercase lg:text-5xl font-extrabold  z-10 mt-12 text-black sm:text-xl overflow-y-hidden">
+                        {/* <h1 className="relative uppercase lg:text-5xl font-extrabold  z-10 mt-12 text-black sm:text-xl overflow-y-hidden">
                           SALESFORCE CLM
-                        </h1>
+                        </h1> */}
                 </div>
         
         
@@ -316,7 +316,7 @@ Exalt System is a preferred Conga partner for transforming manual contracting pr
   <div className="lg:w-2/3  flex flex-col justify-center items-start lg:items-start text-center lg:text-left">
     <h1 className="text-3xl font-bold mb-4">Mudassir Dar</h1>
     <p className='text-2xl text-accent'>Director Solutions - CLM</p>
-    <p className="text-sm text-gray-300">
+    <p className="text-sm ">
     Mudassir is a Salesforce-certified professional skilled in Conga CLM & CPQ, and Salesforce CRM with expertise in QTC & 10+ years of experience. He is a CLM expert with us, helping businesses to streamline their CLM E2E.    </p>
   </div>
 </div>

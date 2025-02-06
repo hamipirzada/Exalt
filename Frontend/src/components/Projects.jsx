@@ -22,7 +22,7 @@ const Projects = () => {
     data-aos="fade-up"
   >
     <img
-      className="w-full sm:w-1/2 h-[300px] p-2 object-cover rounded-2xl flex"
+      className="w-full sm:w-1/2 h-[300px] p-2 object-cover rounded-3xl flex"
       src="https://images.pexels.com/photos/8423051/pexels-photo-8423051.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
       data-aos="fade-right"
       alt="Image 1"
@@ -48,7 +48,7 @@ const Projects = () => {
     data-aos="fade-up"
   >
     <img
-      className="w-full sm:w-1/2 h-[300px] p-2 object-cover rounded-2xl"
+      className="w-full sm:w-1/2 h-[300px] p-2 object-cover rounded-3xl"
       src="https://images.pexels.com/photos/4481530/pexels-photo-4481530.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
       data-aos="fade-right"
       alt="Image 1"
@@ -81,7 +81,7 @@ const Projects = () => {
     data-aos="fade-up"
   >
     <img
-      className="w-full sm:w-1/2 h-[300px] p-2 object-cover rounded-2xl"
+      className="w-full sm:w-1/2 h-[300px] p-2 object-cover rounded-3xl"
       src="https://images.pexels.com/photos/12935078/pexels-photo-12935078.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
       data-aos="fade-right"
       alt="Image 1"
@@ -105,7 +105,7 @@ const Projects = () => {
     data-aos="fade-up"
   >
     <img
-      className="w-full sm:w-1/2 h-[300px] p-2 object-cover rounded-xl"
+      className="w-full sm:w-1/2 h-[300px] p-2 object-cover rounded-3xl"
       src="https://images.pexels.com/photos/6298479/pexels-photo-6298479.jpeg"
       data-aos="fade-right"
       alt="Image 1"

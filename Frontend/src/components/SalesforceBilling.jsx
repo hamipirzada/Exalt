@@ -22,9 +22,9 @@ const SalesforceBilling = () => {
                       src={salesforce}
                       alt="Salesforce Training Background"
                     />
-                    <h1 className="relative uppercase lg:text-5xl font-extrabold  z-10 mt-12 text-black sm:text-xl overflow-y-hidden">
+                    {/* <h1 className="relative uppercase lg:text-5xl font-extrabold  z-10 mt-12 text-black sm:text-xl overflow-y-hidden">
                       SALESFORCE BILLING
-                    </h1>
+                    </h1> */}
             </div>
     
     

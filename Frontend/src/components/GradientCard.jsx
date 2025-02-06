@@ -40,16 +40,18 @@ const GradientCard = () => {
         "https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       gradient: "from-blue-900 via-blue-700 to-pink-400",
     },
+
     {
       id: 4,
       title: "Salesforce",
-      subtitle: "Training",
+      subtitle: "Consulting ",
       description:
-        "Salesforce is a cloud-based customer relationship management (CRM) software that helps businesses manage their sales, marketing, customer service, and other important aspects of their operations. Salesforce is one of the most popular CRM platforms used by businesses of all sizes and industries. ",
+        "Salesforce consulting services are aimed to support your sales, marketing and customer service needs. We apply our ample CRM consulting experience to help the enterprises in professional services, retail, IT, manufacturing, finance and banking, healthcare, and other industries benefit from Salesforce use.",
       image:
-        "https://images.pexels.com/photos/8134067/pexels-photo-8134067.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      gradient: "from-black via-green-700 to-green-800",
+        "https://images.pexels.com/photos/2977565/pexels-photo-2977565.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      gradient: "from-indigo-900 via-indigo-700 to-indigo-500" ,
     },
+
     {
       id: 5,
       title: "Salesforce",
@@ -60,16 +62,19 @@ const GradientCard = () => {
         "https://images.pexels.com/photos/5475784/pexels-photo-5475784.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       gradient: "from-black via-teal-700 to-teal-900",
     },
+    
     {
       id: 6,
       title: "Salesforce",
-      subtitle: "Consulting ",
+      subtitle: "Training",
       description:
-        "Salesforce consulting services are aimed to support your sales, marketing and customer service needs. We apply our ample CRM consulting experience to help the enterprises in professional services, retail, IT, manufacturing, finance and banking, healthcare, and other industries benefit from Salesforce use.",
+        "Salesforce is a cloud-based customer relationship management (CRM) software that helps businesses manage their sales, marketing, customer service, and other important aspects of their operations. Salesforce is one of the most popular CRM platforms used by businesses of all sizes and industries. ",
       image:
-        "https://images.pexels.com/photos/2977565/pexels-photo-2977565.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      gradient: "from-indigo-900 via-indigo-700 to-indigo-500" ,
+        "https://images.pexels.com/photos/8134067/pexels-photo-8134067.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      gradient: "from-black via-green-700 to-green-800",
     },
+   
+    
   ];
 
   return (

@@ -41,10 +41,12 @@ export const Address = () => {
         </div>
          <h1 className="text-xl font-bold ">HEAD OFFICE</h1>
          <p className="text-lg ">
-           Office No. 136 & 137, First Floor, Right Wing,
-            </p>
-         <p className="text-lg "> Arish Complex, Model Town-D, Sopore, </p>
-         <p className="text-lg "> Baramulla J&K 19320 </p>
+           Office No. 136 & 137, First Floor, <br />
+            Right Wing, 
+           Arish Complex, <br /> Model Town-D, 
+         193201 </p>
+          <p>info@exaltsystem.com <br />
+         +91-7006334491</p>
          
        </div>
 
@@ -60,11 +62,13 @@ export const Address = () => {
         </div>
          <h1 className="text-xl font-bold uppercase">Branch Office USA</h1>
          <p className="text-lg ">
-         3255 Normandy Woods  
-         </p>
-         <p> Dr. Ellicott City Maryland,</p>
-         <p>MD 21043, USA</p>
-         <p>+1-443-851-3193</p>
+         3255 Normandy Woods  <br />
+         Dr. Ellicott City Maryland, <br />
+         MD 21043, USA</p>
+         <p>
+          sales@exaltsystem.com <br />
+          +1-443-851-3193
+          </p>
          
        </div>
     
@@ -84,10 +88,10 @@ export const Address = () => {
          <h1 className="text-xl font-bold  ">BRANCH OFFICE IND</h1>
          <p className="text-lg ">
            602 - Chester, Nyati Eternity,
-           <br /> Pune 411060
+           <br /> Pune 411060, Maharashtra
          </p>
-         <p className="text-lg ">sales@exaltsystem.com</p>
-         <p className="text-lg "> +91-7006334491</p>
+         <p className="text-lg ">sales@exaltsystem.com <br /> +91-7006334491</p>
+           
          
        </div>
 
@@ -98,9 +102,9 @@ export const Address = () => {
      </div>
 
      
-     <div className=" mt-10 py-4">
+     <div className=" mt-10 py-4 border-t-2 border-black">
        <div className="container mx-auto flex flex-col md:flex-row justify-between items-center text-sm px-6 space-y-2 md:space-y-0">
-         <p className="">&copy; {year} ExaltSystem LLP</p>
+         <p className="">&copy; {year} GoExalt System LLP</p>
          <div className="flex space-x-4">
            <p className=" hover:text-gray-700 cursor-pointer">Privacy Policy</p>
            <p className=" hover:text-gray-700 cursor-pointer">Cookie Policy</p>

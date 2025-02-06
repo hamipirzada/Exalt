@@ -53,9 +53,9 @@ const SalesforceChain = () => {
                 src={salesforce}
                  alt="Salesforce Training Background"
              />
-                <h1 className="relative uppercase lg:text-5xl font-extrabold  z-10 mt-12 text-black sm:text-xl overflow-y-hidden">
+                {/* <h1 className="relative uppercase lg:text-5xl font-extrabold  z-10 mt-12 text-black sm:text-xl overflow-y-hidden">
                   SALESFORCE SUPPLY CHAIN
-                  </h1>
+                  </h1> */}
         </div>
                 
                 
@@ -67,7 +67,7 @@ const SalesforceChain = () => {
           SALESFORCE SUPPLY CHAIN
 
           </h1>
-          <p className="text-lg sm:text-xl text-white mb-6">
+          <p className="text-lg sm:text-xl  mb-6">
           Exalt System is a leading service provider in automating and streamlining Financial Management and specializes in Revenue Management, Revenue Operations, and Revenue Recognition. Exalt System uses in-house accelerators, bolt-on solutions, industry templates, and standardized frameworks to seamlessly execute projects, transform businesses, and optimize processes.
 
           </p>
@@ -192,14 +192,14 @@ className="lg:w-96 lg:h-96 sm:w-40 sm:h-40 object-cover rounded-full border-4 bo
 />
 </div>
 {/* Profile Details */}
-<div className="lg:w-2/3 text-white flex flex-col justify-center items-start lg:items-start text-center lg:text-left">
+<div className="lg:w-2/3  flex flex-col justify-center items-start lg:items-start text-center lg:text-left">
 <h1 className="text-3xl font-bold mb-4">Mohammad Iqbal</h1>
 <p className='text-2xl text-accent'>Director - Cloud Solutions ERP
 
 </p>
 
 
-<p className="text-sm text-gray-300">
+<p className="text-sm text-black">
 Iqbal Sonaullah is a certified professional in Oracle Cloud OM, Procurement, Inventory, Planning, Manufacturing & Costing. He has over 6 years of experience in Solution Architect (Oracle) and leads our SCM solutions.
 </p>
 </div>
@@ -207,7 +207,7 @@ Iqbal Sonaullah is a certified professional in Oracle Cloud OM, Procurement, Inv
         </div>
 
     <div className='w-full lg:h-[350px] sm:h-[200px] bg-slate-800 flex justify-center items-center' >
-    <h1 className='text-4xl'>Let’s discuss your Managed Services needs</h1>
+    <h1 className='text-4xl text-white'>Let’s discuss your Managed Services needs</h1>
 
     </div>
 

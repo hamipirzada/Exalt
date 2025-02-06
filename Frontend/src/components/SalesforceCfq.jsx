@@ -30,9 +30,9 @@ const SalesforceCfq = () => {
                                   src={salesforce}
                                   alt="Salesforce Training Background"
                                 />
-                                <h1 className="relative uppercase lg:text-5xl font-extrabold  z-10 mt-12 text-black sm:text-xl overflow-y-hidden">
+                                {/* <h1 className="relative uppercase lg:text-5xl font-extrabold  z-10 mt-12 text-black sm:text-xl overflow-y-hidden">
                                   SALESFORCE CFQ
-                                </h1>
+                                </h1> */}
                         </div>
                 
                 
@@ -237,7 +237,7 @@ const SalesforceCfq = () => {
 <div className="lg:w-2/3  flex flex-col justify-center items-start lg:items-start text-center lg:text-left">
 <h1 className="text-3xl font-bold mb-4">Uzair Rather</h1>
 <p className='text-2xl text-accent'>System Analyst and Solution Architect</p>
-<p className="text-sm text-gray-300">
+<p className="text-sm ">
 Certified in Salesforce Admin and CPQ, Admin (Conga Composer), ScrumMaster, and SAFe® 5 Product Owner/Product Manager, Uzair Rather is a CPQ specialist with over 8+ years of experience and leads our CPQ solutions
 </p>
 </div>

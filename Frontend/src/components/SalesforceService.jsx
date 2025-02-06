@@ -27,9 +27,9 @@ const SalesforceService = () => {
                 src={salesforce}
                  alt="Salesforce Training Background"
              />
-                <h1 className="relative uppercase lg:text-5xl font-extrabold  z-10 mt-12 text-black sm:text-xl overflow-y-hidden">
+                {/* <h1 className="relative uppercase lg:text-5xl font-extrabold  z-10 mt-12 text-black sm:text-xl overflow-y-hidden">
                   SALESFORCE Management Service
-                  </h1>
+                  </h1> */}
         </div>
                 
                 
@@ -37,10 +37,10 @@ const SalesforceService = () => {
   <div className="max-w-5xl h-full mt-9 ml-10">
 
 
-          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-accent mb-4">
+           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-accent mb-4">
           SALESFORCE MANAGEMENT SERVICES
 
-          </h1>
+          </h1> 
           <p className="text-lg sm:text-xl mb-6">
           At Exalt System, our Managed Services for Salesforce, Conga, Oracle, and NetSuite optimize performance with a progressive value realization framework, transforming operations, reducing TCO, and enhancing quality, all while providing unmatched transparency and value.
 
@@ -248,7 +248,7 @@ className="lg:w-96 lg:h-96 sm:w-40 sm:h-40 object-cover rounded-full border-4 bo
 </p>
 
 
-<p className="text-sm text-gray-300">
+<p className="text-sm ">
 Iqbal is a strategic leader with over 20 years of experience in IT, specializing in business strategy, partnerships, and sales management. Prior to Exalt System, he was responsible for driving growth and innovation at HCL Technologies, Accenture, and Tech Mahindra.
 </p>
 </div>
@@ -256,7 +256,7 @@ Iqbal is a strategic leader with over 20 years of experience in IT, specializing
 </div>
 
 <div className='w-full lg:h-[350px] sm:h-[200px] bg-slate-800 flex justify-center items-center' >
-    <h1 className='text-4xl'>Let’s discuss your Managed Services needs</h1>
+    <h1 className='text-4xl text-white'>Let’s discuss your Managed Services needs</h1>
 
 </div>
 

@@ -27,9 +27,9 @@ const SalesforceFinancials = () => {
                 src={salesforce}
                  alt="Salesforce Training Background"
              />
-                <h1 className="relative uppercase lg:text-5xl font-extrabold  z-10 mt-12 text-black sm:text-xl overflow-y-hidden">
+                {/* <h1 className="relative uppercase lg:text-5xl font-extrabold  z-10 mt-12 text-black sm:text-xl overflow-y-hidden">
                   SALESFORCE Financials
-                  </h1>
+                  </h1> */}
         </div>
                 
                 
@@ -329,7 +329,7 @@ const SalesforceFinancials = () => {
 </p>
 
 
-<p className="text-sm text-gray-300">
+<p className="text-sm ">
 Naveed Ahmad has over 20 years of experience and is an expert in Oracle ERP – Oracle Projects Suite, Oracle Financials, Oracle CRM, and HR. He leads Financial Management solutions at Exalt System
 </p>
 </div>

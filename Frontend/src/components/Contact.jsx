@@ -27,7 +27,7 @@ const Contact = () => {
         <form
           action="https://formsubmit.co/sales@exaltsystem.com" method="POST"
          
-          className=" backdrop-blur-lg p-4  rounded-lg shadow-xl border  space-y-6"
+          className=" backdrop-blur-lg p-4  rounded-lg shadow-xl outline-double  space-y-6"
         >
   
 
@@ -37,7 +37,7 @@ const Contact = () => {
               type="text"
               name="fullName"
               placeholder="Full Name"
-              className="w-full px-4 py-3 bg-transparent    rounded-2xl focus:ring-2 focus:ring-accent focus:outline-none  transition duration-300 ease-in-out z-50"
+              className="w-full px-4 py-3 bg-transparent rounded-xl outline-double focus:ring-2 focus:ring-accent focus:outline-none  transition duration-300 ease-in-out z-50"
               required
             />
           </div>
@@ -48,7 +48,7 @@ const Contact = () => {
               type="email"
               name="email"
               placeholder="Your Email"
-              className="w-full px-4 py-3 bg-transparent  rounded-2xl focus:ring-2 focus:ring-accent focus:outline-none transition duration-300 ease-in-out"
+              className="w-full px-4 py-3 bg-transparent outline-double  rounded-xl focus:ring-2 focus:ring-accent focus:outline-none transition duration-300 ease-in-out"
               required
             />
           </div>
@@ -59,7 +59,7 @@ const Contact = () => {
               type="tel"
               name="phone"
               placeholder="Phone Number"
-              className="w-full px-4 py-3 bg-transparent rounded-2xl focus:ring-2 focus:ring-accent focus:outline-none  transition duration-300 ease-in-out"
+              className="w-full px-4 py-3 bg-transparent outline-double  rounded-xl focus:ring-2 focus:ring-accent focus:outline-none  transition duration-300 ease-in-out"
               required
             />
           </div>
@@ -70,7 +70,7 @@ const Contact = () => {
               name="message"
               placeholder="Your Message"
               rows="4"
-              className="w-full px-4 py-3  bg-transparent rounded-2xl focus:ring-2 focus:ring-accent focus:outline-none  transition duration-300 ease-in-out"
+              className="w-full px-4 py-3 outline-double   bg-transparent rounded-xl focus:ring-2 focus:ring-accent focus:outline-none  transition duration-300 ease-in-out"
               required
             >
 
@@ -101,13 +101,13 @@ const Contact = () => {
       <FaRegAddressCard className="text-accent lg:text-2xl sm:text-xl" />
     </div>
     <div className="ml-3">
-      <p className="text-gray-400 font-bold lg:text-lg  sm:text-sm">
+      <p className=" font-bold lg:text-lg  sm:text-sm">
       Office No. 136 & 137, First Floor,
       </p>
-      <p className="text-gray-400 font-bold lg:text-lg sm:text-sm">
+      <p className=" font-bold lg:text-lg sm:text-sm">
       Right Wing Arish Complex, Model
       </p>
-      <p className="text-gray-400 font-bold lg:text-lg sm:text-sm">
+      <p className=" font-bold lg:text-lg sm:text-sm">
       Town-D Sopore, Baramulla J&K 193201
       </p>
     </div>
@@ -119,13 +119,13 @@ const Contact = () => {
       <FaPhoneAlt className="text-accent lg:text-2xl sm:text-xl" />
     </div>
     <div className="ml-3">
-      <p className="text-gray-400 font-bold mg:text-lg sm:text-sm">
+      <p className=" font-extrabold lg:text-lg sm:text-sm">
         Email: sales@exaltsystem.com,
       </p>
-      <p className="text-gray-400 font-bold lg:text-lg sm:text-sm">
+      <p className=" font-bold lg:text-lg sm:text-sm">
         Phone: (+91)7051963883
       </p>
-      <p className="text-gray-400 font-bold lg:text-lg sm:text-sm">
+      <p className=" font-bold lg:text-lg sm:text-sm">
         (+91)7006334491 / (+91)7051574421
       </p>
     </div>
@@ -137,7 +137,7 @@ const Contact = () => {
       <MdOutlineAccessTime className="text-accent lg:text-2xl sm:text-xl" />
     </div>
     <div className="ml-3 mt-2">
-      <p className="text-gray-400 font-bold lg:text-lg sm:text-sm">
+      <p className=" font-bold lg:text-lg sm:text-sm">
         Mon – Sun: 10:30 AM – 5:00 PM
       </p>
     </div>
