@@ -75,7 +75,7 @@ const About = () => {
 
       {/* Text Content */}
       <div className="relative z-10 text-center">
-        <h1 className="text-white text-5xl mt-28 font-extrabold" data-aos="fade-left">ABOUT US</h1>
+        {/* <h1 className="text-white text-5xl  font-extrabold" data-aos="fade-left">ABOUT US</h1> */}
       </div>
 
       {/* Overlay for Readability */}
