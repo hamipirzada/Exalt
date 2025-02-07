@@ -84,7 +84,7 @@ const About = () => {
   </div>
   {/* Images End Here */}
 
-  <div className="flex justify-center gap-7 sm:gap-3" >
+  <div className="flex justify-center gap-7 mt-5 sm:gap-3" >
     {Object.keys(tabContent).map((tab) => (
       <Tab
         key={tab}
