@@ -40,7 +40,7 @@ const SalesforceCommerce = () => {
 
           </h1>
           <p className="text-lg sm:text-xl mb-6">
-          Exalt System offers Digital Commerce services to help companies enter the online space and boost their presence, increase business, and augment brand. Exalt System has developed 25+ digital commerce projects using Conga’s Omnichannel Commerce and its own product.
+          GoExalt System offers Digital Commerce services to help companies enter the online space and boost their presence, increase business, and augment brand. GoExalt System has developed 25+ digital commerce projects using Conga’s Omnichannel Commerce and its own product.
           </p>
         
           <Link
@@ -58,7 +58,7 @@ const SalesforceCommerce = () => {
   <div className="flex-1 text-center lg:text-left">
     <h1 className="text-2xl sm:text-3xl font-bold text-gray-800 mb-4">Our Billing Portfolio</h1>
     <p className="text-gray-600 text-base sm:text-lg">
-      Exalt System develops self-service storefronts to help users (partners, customers, sales representatives) configure, price, collaborate, generate/request quotes, and place orders through a unified platform for an enhanced customer experience. Forsys is recognized for building digital commerce transformation and seamlessly bridging the gap between business, technology, and customer journey.
+      GoExalt System develops self-service storefronts to help users (partners, customers, sales representatives) configure, price, collaborate, generate/request quotes, and place orders through a unified platform for an enhanced customer experience. Forsys is recognized for building digital commerce transformation and seamlessly bridging the gap between business, technology, and customer journey.
     </p>
   </div>
 
@@ -91,7 +91,7 @@ const SalesforceCommerce = () => {
         {/* Card 1 */}
         <div className="card bg-gray-700 rounded-lg shadow-lg hover:shadow-2xl  w-80 p-6">
           <img
-            src="https://images.pexels.com/photos/6693655/pexels-photo-6693655.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            src="https://images.pexels.com/photos/7651553/pexels-photo-7651553.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
             className="rounded-md mb-4 w-full"
           />
           
@@ -103,26 +103,26 @@ const SalesforceCommerce = () => {
         {/* Card 2 */}
         <div className="card bg-gray-700 rounded-lg shadow-lg hover:shadow-2xl  w-80 p-6"  data-aos="fade-right">
           <img
-            src="https://images.pexels.com/photos/6693655/pexels-photo-6693655.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            src="https://images.pexels.com/photos/3183126/pexels-photo-3183126.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
             alt="Feature 2"
             className="rounded-md mb-4 w-full"
           />
          
           <p className="text-gray-300">
-          Exalt System Implements Conga Digital Commerce, Improves Customer Retention by 18% for a Video Tech Company
+          GoExalt System Implements Conga Digital Commerce, Improves Customer Retention by 18% for a Video Tech Company
           </p>
         </div>
 
         {/* Card 3 */}
         <div className="card bg-gray-700 rounded-lg shadow-lg hover:shadow-2xl  w-80 p-6"  data-aos="fade-right">
           <img
-            src="https://images.pexels.com/photos/6693655/pexels-photo-6693655.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            src="https://images.pexels.com/photos/880840/pexels-photo-880840.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
             alt="Feature 3"
             className="rounded-md mb-4 w-full"
           />
          
           <p className="text-gray-300">
-          Exalt System Builds a Multi-store Compatible Portal Using Conga Digital Commerce for a Leading Apparel Brand
+          GoExalt System Builds a Multi-store Compatible Portal Using Conga Digital Commerce for a Leading Apparel Brand
           </p>
         </div>
       </div>

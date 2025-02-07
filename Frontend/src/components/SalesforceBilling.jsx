@@ -36,7 +36,7 @@ const SalesforceBilling = () => {
             Salesforce Billing
             </h1>
             <p className="text-lg sm:text-xl  mb-6">
-            Exalt System, as a Lead-to-Revenue specialist, offers Billing Services & Invoice Automation Solutions. A partner of choice for Conga, Salesforce, and Oracle billing solutions, Exalt System helps customers generate accurate invoices even for the most complex pricing model.
+            GoExalt System, as a Lead-to-Revenue specialist, offers Billing Services & Invoice Automation Solutions. A partner of choice for Conga, Salesforce, and Oracle billing solutions, GoExalt System helps customers generate accurate invoices even for the most complex pricing model.
             </p>
             <Link
             to="/contact"
@@ -52,7 +52,7 @@ const SalesforceBilling = () => {
   <div className="flex-1 max-w-md text-center lg:text-left">
     <h1 className="text-4xl font-bold mb-4">Our Billing Portfolio</h1>
     <p className="text-lg">
-      Exalt System can simplify different pricing models, including flat rate, custom billing, subscription, consumption-based, renewal, blended, and more.
+      GoExalt System can simplify different pricing models, including flat rate, custom billing, subscription, consumption-based, renewal, blended, and more.
     </p>
   </div>
 
@@ -84,12 +84,12 @@ const SalesforceBilling = () => {
         {/* Card 1 */}
         <div className="card bg-gray-700 rounded-lg shadow-lg hover:shadow-2xl transform hover:scale-105 transition duration-300 w-80 p-6">
           <img
-            src="https://images.pexels.com/photos/6693655/pexels-photo-6693655.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            src="https://images.pexels.com/photos/6170399/pexels-photo-6170399.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
             className="rounded-md mb-4 w-full"
           />
           
           <p className="text-gray-300">
-          Exalt System’ Oracle Order Management Solution Results in 100% Accurate Reconciliation, Provides Real-time Visibility in Revenue
+          GoExalt System’ Oracle Order Management Solution Results in 100% Accurate Reconciliation, Provides Real-time Visibility in Revenue
           </p>
         </div>
 
@@ -109,7 +109,7 @@ const SalesforceBilling = () => {
         {/* Card 3 */}
         <div className="card bg-gray-700 rounded-lg shadow-lg hover:shadow-2xl transform hover:scale-105 transition duration-300 w-80 p-6">
           <img
-            src="https://images.pexels.com/photos/6693655/pexels-photo-6693655.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            src="https://images.pexels.com/photos/4449786/pexels-photo-4449786.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
             alt="Feature 3"
             className="rounded-md mb-4 w-full"
           />

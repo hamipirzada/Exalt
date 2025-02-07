@@ -31,7 +31,7 @@ const OodoCustom = () => {
               className="rounded-lg shadow-md animate-moveUpDown"
             />
             <h1 className="text-5xl font-bold text-center text-white">
-             OODO CUSTOMIZATION
+             ODOO CUSTOMIZATION
             </h1>
           </div>
 

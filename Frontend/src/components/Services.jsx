@@ -458,7 +458,7 @@ const Services = () => {
           <h2 className="text-2xl font-bold text-gray-800 mb-2">PHP Service</h2>
           <p className="flex items-center" data-aos="fade-right">
             
-          Exalt System  is a trusted PHP web application development company, offering unmatched custom PHP development services to help your online business outshine your competitors. We have expert developers and provide PHP innovative solutions that enable us to help you achieve a next level of excellence.
+          GoExalt System  is a trusted PHP web application development company, offering unmatched custom PHP development services to help your online business outshine your competitors. We have expert developers and provide PHP innovative solutions that enable us to help you achieve a next level of excellence.
           </p>
   
            
@@ -503,7 +503,7 @@ const Services = () => {
           <h2 className="text-2xl font-bold text-gray-800 mb-2">Frontend Service</h2>
           <p className="flex items-center" data-aos="fade-right">
             
-          Exalt System offers a full range of brand-driving front-end development services that are focused on creating software frontend with a powerful first impression. We have a wide pool of experienced frontend engineers ready to deliver solutions of any scope based on your business goals.
+          GoExalt System offers a full range of brand-driving front-end development services that are focused on creating software frontend with a powerful first impression. We have a wide pool of experienced frontend engineers ready to deliver solutions of any scope based on your business goals.
           </p>
   
            
@@ -586,7 +586,7 @@ data-aos="fade-right" >
 </div>
 
 
-  <div className="w-[90%] mx-auto mt-10 bg-gradient-to-r from-slate-200 via-red-200 to-black rounded-3xl p-4 flex flex-col md:flex-row items-center shadow-lg" 
+  <div className="w-[90%] mx-auto mt-10 bg-gradient-to-r from-slate-200 via-red-200 to-yellow-600 rounded-3xl p-4 flex flex-col md:flex-row items-center shadow-lg" 
 data-aos="fade-right" >
     
 
@@ -594,7 +594,7 @@ data-aos="fade-right" >
    <div className="flex-1 p-4">
      <h2 className="text-2xl font-bold text-gray-800 mb-2">ODOO CUSTOMIZATION</h2>
      <p className="text-gray-600">
-     An enterprise application must go by client&apos;s way. Customization provides that personalized experience in an application focusing on the client’s requirements and ideas. Odoo provides a fully functional package to meet up an enterprise requirement, but there will be always an extra required by the clients. At Exalt System we analyze your requirement on the additional needs and there by setting the right strategy for fulfilling the functionalities. We deliver high end customization services so that customers get the full benefit of using their application, there by achieving the business goals. Extending Odoo&apos;s modular approach, our technical team assist you to achieve your all desired needs.
+     An enterprise application must go by client&apos;s way. Customization provides that personalized experience in an application focusing on the client’s requirements and ideas. Odoo provides a fully functional package to meet up an enterprise requirement, but there will be always an extra required by the clients. At GoExalt System we analyze your requirement on the additional needs and there by setting the right strategy for fulfilling the functionalities. We deliver high end customization services so that customers get the full benefit of using their application, there by achieving the business goals. Extending Odoo&apos;s modular approach, our technical team assist you to achieve your all desired needs.
        </p>
        </div>
        <div className="flex-1 p-4 bg-cover ">
@@ -681,7 +681,7 @@ data-aos="fade-right" >
         Web Design & Development
         </h1>
         <p className="text-lg sm:text-xl  mb-6">
-        Client-focused, customer-centric, creating website solutions that deliver tangible business results, Exalt System web developers helps brands the ever-changing digital landscape.
+        Client-focused, customer-centric, creating website solutions that deliver tangible business results, GoExalt System web developers helps brands the ever-changing digital landscape.
         </p>
         <Link
         to="/contact"
@@ -712,7 +712,7 @@ data-aos="fade-right" >
           </h1>
           <p className="text-gray-700">
         
-          We work closely with enterprise level customers to create outstanding high performing and secure custom websites with a focus on unique, professional web design. Whatever your project requires, Exalt System has the tools and experience to ensure that your goals are not only met, but exceeded.
+          We work closely with enterprise level customers to create outstanding high performing and secure custom websites with a focus on unique, professional web design. Whatever your project requires, GoExalt System has the tools and experience to ensure that your goals are not only met, but exceeded.
           </p>
         </div>
 
@@ -722,7 +722,7 @@ data-aos="fade-right" >
           Drupal Design & Development
           </h1>
           <p className="text-gray-700">
-          Exalt System has unmatched experience in creating and supporting professional, innovative and highly customized Drupal-based solutions. Since our founding in 2016, Drupal remains a cornerstone of our development, design and consulting efforts today.
+          GoExalt System has unmatched experience in creating and supporting professional, innovative and highly customized Drupal-based solutions. Since our founding in 2016, Drupal remains a cornerstone of our development, design and consulting efforts today.
           </p>
         </div>
 
@@ -732,7 +732,7 @@ data-aos="fade-right" >
           HTML5 Web Design & Development
           </h1>
           <p className="text-gray-700">
-          Exalt System HTML5 Web Development Services can deliver and deploy a complete HTML5 solution into your business environment that is optimized for high performance with quick loading times, scalable and responsive and able to handle any increases in visitor traffic.
+          GoExalt System HTML5 Web Development Services can deliver and deploy a complete HTML5 solution into your business environment that is optimized for high performance with quick loading times, scalable and responsive and able to handle any increases in visitor traffic.
           </p>
         </div>
       </div>

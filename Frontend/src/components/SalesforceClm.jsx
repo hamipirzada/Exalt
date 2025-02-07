@@ -64,7 +64,7 @@ const SalesforceClm = () => {
     Salesforce CLM
   </h1>
   <p className="text-lg sm:text-xl  mb-6">
-    Ealt System, as a Lead-to-Revenue partner of Conga, provides a range of CLM solutions and services to streamline, simplify, and accelerate the entire process of contract lifecycle management. We specialize in:
+    GoExalt System, as a Lead-to-Revenue partner of Conga, provides a range of CLM solutions and services to streamline, simplify, and accelerate the entire process of contract lifecycle management. We specialize in:
   </p>
   <ul className="space-y-3 text-lg">
     <li className="flex items-center" data-aos="fade-right">
@@ -98,12 +98,11 @@ const SalesforceClm = () => {
 
 
 <div className='flex items-center justify-center flex-col mt-6'>
-<h1 className='text-5xl'>Conga CLM Offerings & Exalt System Services </h1>
+<h1 className='text-5xl'>Conga CLM Offerings & GoExalt System Services </h1>
 <h4 className='text-xl'>
-Exalt System is a preferred Conga partner for transforming manual contracting process into a smarter technology.
+GoExalt System is a preferred Conga partner for transforming manual contracting process into a smarter technology.
 </h4>
 </div>
-
 
 
 
@@ -149,7 +148,7 @@ Exalt System is a preferred Conga partner for transforming manual contracting pr
 
   <div className="lg:h-[150px] mt-5 pb-4 flex text-center justify-center">
   <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold">
-   <samp className="text-accent">-</samp> Exalt System Services  <samp className="text-accent">-</samp>
+   <samp className="text-accent">-</samp> GoExalt System Services  <samp className="text-accent">-</samp>
   </h1>
 </div>
   
@@ -255,7 +254,7 @@ Exalt System is a preferred Conga partner for transforming manual contracting pr
       data-aos="fade-right"
     >
       <img
-        src="https://images.pexels.com/photos/6693655/pexels-photo-6693655.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        src="https://images.pexels.com/photos/1824273/pexels-photo-1824273.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         className="rounded-md mb-4 w-full"
       />
       <p className="text-gray-300">
@@ -269,12 +268,12 @@ Exalt System is a preferred Conga partner for transforming manual contracting pr
       data-aos="fade-right"
     >
       <img
-        src="https://images.pexels.com/photos/6693655/pexels-photo-6693655.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        src="https://images.pexels.com/photos/7688374/pexels-photo-7688374.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         alt="Feature 2"
         className="rounded-md mb-4 w-full"
       />
       <p className="text-gray-300">
-        Exalt System Implements Conga CLM for a $6B Insurance Company, Results in 45% Increment in
+        GoExalt System Implements Conga CLM for a $6B Insurance Company, Results in 45% Increment in
         Contract Accuracy
       </p>
     </div>
@@ -285,13 +284,12 @@ Exalt System is a preferred Conga partner for transforming manual contracting pr
       data-aos="fade-right"
     >
       <img
-        src="https://images.pexels.com/photos/6693655/pexels-photo-6693655.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        src="https://images.pexels.com/photos/4033148/pexels-photo-4033148.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         alt="Feature 3"
         className="rounded-md mb-4 w-full"
       />
       <p className="text-gray-300">
-        Exalt System Implements Conga CLM for a $6B Insurance Company, Results in 45% Increment in
-        Contract Accuracy
+      Leading Healthcare Platform Provider Relies on Exalt System Managed Services for Conga CLM Solution, Reduces IT Costs by ~25%
       </p>
     </div>
   </div>

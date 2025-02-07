@@ -44,7 +44,7 @@ const Humans = () => {
               IT Solution Providers
             </h1>
             <p className=" mt-4 leading-relaxed">
-              ExaltSystem is a leading and trusted software solution provider offering
+              GoExalt System is a leading and trusted software solution provider offering
               product portfolio across various sectors like education, healthcare, and
               fitness. We have various customized product offerings for respective
               segments—from schools to colleges and universities, from retailer to

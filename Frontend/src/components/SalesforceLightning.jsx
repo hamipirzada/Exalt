@@ -58,8 +58,8 @@ const SalesforceLightning = () => {
  
   
   <div className="flex flex-wrap justify-center items-center gap-6 sm:gap-y-8">
-  <div className="card bg-gray-900 p-4 rounded-lg shadow-md w-72 h-96 flex flex-col justify-evenly items-center" data-aos="fade-up">
-    <h3 className="text-xl font-semibold mb-2 uppercase">Developer Guide</h3>
+  <div className="card bg-gray-900 p-4 rounded-lg shadow-md w-72 h-96 flex flex-col justify-evenly items-start" data-aos="fade-up">
+    <h3 className="text-xl font-semibold mb-2 uppercase text-white">Developer Guide</h3>
     <h1 className="text-2xl font-bold text-blue-400 mb-2">Lightning Web Components</h1>
     <p className="text-white mb-8">Use the Lightning Web Components (LWC) framework to build custom user interfaces, web and mobile apps, and digital experiences on Salesforce.</p>
     <Link
@@ -70,8 +70,8 @@ const SalesforceLightning = () => {
     </Link>
   </div>
 
-  <div className="card bg-gray-700 p-4 rounded-lg shadow-md w-72 h-96 flex flex-col justify-evenly items-center" data-aos="fade-up">
-    <h3 className="text-xl font-semibold mb-2 uppercase ml-4">Interactive Documentation</h3>
+  <div className="card bg-gray-700 p-4 rounded-lg shadow-md w-72 h-96 flex flex-col justify-evenly items-start" data-aos="fade-up">
+    <h3 className="text-xl font-semibold  uppercase text-white ">Interactive Documentation</h3>
     <h1 className="text-2xl text-blue-400 mr-7 font-bold  mb-2">Component Library</h1>
     <p className="text-white mb-8">See Lightning base components in action and learn how to use them.</p>
     <Link
@@ -82,8 +82,8 @@ const SalesforceLightning = () => {
     </Link>
   </div>
 
-  <div className="card bg-gray-600 p-4 rounded-lg shadow-md w-72 h-96 flex flex-col justify-evenly items-center" data-aos="fade-up">
-    <h3 className="text-xl font-semibold mb-2 uppercase">Developer Guide</h3>
+  <div className="card bg-gray-600 p-4 rounded-lg shadow-md w-72 h-96 flex flex-col justify-evenly items-start" data-aos="fade-up">
+    <h3 className="text-xl font-semibold mb-2 uppercase text-white">Developer Guide</h3>
     <h1 className="text-2xl text-blue-400 font-bold mb-2">Salesforce Extensions for Visual Studio Code</h1>
     <p className="text-white mb-8">Learn how to install and use the Salesforce extensions for VS Code.</p>
     <Link
@@ -94,8 +94,8 @@ const SalesforceLightning = () => {
     </Link>
   </div>
 
-  <div className="card bg-gray-800 p-4 rounded-lg shadow-md w-72 h-96 flex flex-col justify-evenly items-center" data-aos="fade-up">
-    <h3 className="text-xl font-semibold mb-2">Developer Guide</h3>
+  <div className="card bg-gray-800 p-4 rounded-lg shadow-md w-72 h-96 flex flex-col justify-evenly items-start" data-aos="fade-up">
+    <h3 className="text-xl font-semibold mb-2 text-white">Developer Guide</h3>
     <h1 className="text-2xl font-bold text-blue-400 mb-2">Lightning Web Components Open Source</h1>
     <p className="text-white mb-8">Learn how to use LWCs in standard web apps.</p>
     <Link

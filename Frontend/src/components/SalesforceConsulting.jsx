@@ -31,10 +31,10 @@ const SalesforceConsulting = () => {
 
     <div className="max-w-3xl mt-6 ml-6">
         <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-accent mb-4">
-        Salesforce Consulting ®️
+        Salesforce Consulting 
         </h1>
         <p className="text-lg sm:text-xl  mb-6">
-        Salesforce®️ consulting services are aimed to support your sales, marketing and customer service needs. We apply our ample CRM consulting experience to help the enterprises in professional services, retail, IT, manufacturing, finance and banking, healthcare, and other industries benefit from Salesforce use.
+        Salesforce consulting services are aimed to support your sales, marketing and customer service needs. We apply our ample CRM consulting experience to help the enterprises in professional services, retail, IT, manufacturing, finance and banking, healthcare, and other industries benefit from Salesforce use.
         </p>
         <Link
         to="/contact"
@@ -52,7 +52,7 @@ const SalesforceConsulting = () => {
   {/* Card 1 */}
   <div className="card bg-gray-300 p-4 rounded-lg shadow-md w-full h-screen" data-aos="fade-right">
     <img
-      src="https://images.pexels.com/photos/30243449/pexels-photo-30243449/free-photo-of-majestic-snow-covered-mountain-peaks-in-winter.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      src="https://images.pexels.com/photos/7176026/pexels-photo-7176026.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
       alt="Card Image 1"
       className="rounded-lg mb-4"
     />
@@ -71,7 +71,7 @@ const SalesforceConsulting = () => {
   {/* Card 2 */}
   <div className="card bg-gray-300 p-4 rounded-lg shadow-md w-full h-screen" data-aos="fade-left" >
     <img
-      src="https://images.pexels.com/photos/30243449/pexels-photo-30243449/free-photo-of-majestic-snow-covered-mountain-peaks-in-winter.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      src="https://images.pexels.com/photos/3854816/pexels-photo-3854816.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
       alt="Card Image 2"
       className="rounded-lg mb-4"
     />

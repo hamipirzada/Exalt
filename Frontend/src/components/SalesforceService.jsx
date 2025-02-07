@@ -42,7 +42,7 @@ const SalesforceService = () => {
 
           </h1> 
           <p className="text-lg sm:text-xl mb-6">
-          At Exalt System, our Managed Services for Salesforce, Conga, Oracle, and NetSuite optimize performance with a progressive value realization framework, transforming operations, reducing TCO, and enhancing quality, all while providing unmatched transparency and value.
+          At GoExalt System, our Managed Services for Salesforce, Conga, Oracle, and NetSuite optimize performance with a progressive value realization framework, transforming operations, reducing TCO, and enhancing quality, all while providing unmatched transparency and value.
 
           </p>
 
@@ -185,7 +185,7 @@ const SalesforceService = () => {
         {/* Card 1 */}
         <div className="card bg-gray-700 rounded-lg shadow-lg hover:shadow-2xl  w-80 p-6">
           <img
-            src="https://images.pexels.com/photos/6693655/pexels-photo-6693655.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            src="https://images.pexels.com/photos/1263324/pexels-photo-1263324.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
             className="rounded-md mb-4 w-full"
           />
           
@@ -197,7 +197,7 @@ const SalesforceService = () => {
         {/* Card 2 */}
         <div className="card bg-gray-700 rounded-lg shadow-lg hover:shadow-2xl  w-80 p-6"  data-aos="fade-right">
           <img
-            src="https://images.pexels.com/photos/6693655/pexels-photo-6693655.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            src="https://images.pexels.com/photos/2881224/pexels-photo-2881224.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
             alt="Feature 2"
             className="rounded-md mb-4 w-full"
           />
@@ -210,7 +210,7 @@ const SalesforceService = () => {
         {/* Card 3 */}
         <div className="card bg-gray-700 rounded-lg shadow-lg hover:shadow-2xl  w-80 p-6"  data-aos="fade-right">
           <img
-            src="https://images.pexels.com/photos/6693655/pexels-photo-6693655.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            src="https://images.pexels.com/photos/8728380/pexels-photo-8728380.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
             alt="Feature 3"
             className="rounded-md mb-4 w-full"
           />
@@ -249,7 +249,7 @@ className="lg:w-96 lg:h-96 sm:w-40 sm:h-40 object-cover rounded-full border-4 bo
 
 
 <p className="text-sm ">
-Iqbal is a strategic leader with over 20 years of experience in IT, specializing in business strategy, partnerships, and sales management. Prior to Exalt System, he was responsible for driving growth and innovation at HCL Technologies, Accenture, and Tech Mahindra.
+Iqbal is a strategic leader with over 20 years of experience in IT, specializing in business strategy, partnerships, and sales management. Prior to GoExalt System, he was responsible for driving growth and innovation at HCL Technologies, Accenture, and Tech Mahindra.
 </p>
 </div>
 </div>

@@ -41,7 +41,7 @@ const OodoIntegration = () => {
                 className="rounded-lg shadow-md animate-moveUpDown"
               />
               <h1 className="text-5xl font-bold text-center text-white uppercase">
-                Oodo Integration
+                Odoo Integration
               </h1>
             </div>
             
@@ -53,7 +53,7 @@ const OodoIntegration = () => {
 
               <p className="mb-9" data-aos="fade-left"> Our ERP Developers are Skilled at Integrating Popular Enterprise Platforms like Salesforce, Shopify, Quickbooks, Acumatica, Zoho and HubSpot</p>
 
-                <h2 className="text-4xl font-bold mb-8">Oodles ERP Integration Services</h2>
+                <h2 className="text-4xl font-bold mb-8">Odoo ERP Integration Services</h2>
 
                 {/* Flex container for cards */}
                 <div className="flex flex-wrap justify-center gap-8" data-aos="fade-left">

@@ -43,7 +43,7 @@ const SalesforceEngineering = () => {
           Our Data Engineering & Integrations Portfolio
           </h1>
           <p className="text-lg sm:text-xl  mb-6">
-          At Exalt System, we understand your business requirements and help connect the dots using our E2E CRM solutions and services. Our specialist team ensures that the implemented CRM software enables businesses to make data-backed strategic decisions to boost overall performance
+          At GoExalt System, we understand your business requirements and help connect the dots using our E2E CRM solutions and services. Our specialist team ensures that the implemented CRM software enables businesses to make data-backed strategic decisions to boost overall performance
           </p>
         
           <Link
@@ -189,7 +189,7 @@ const SalesforceEngineering = () => {
    <h1 className="text-3xl font-bold mb-4">Parveez Ahmad</h1>
    <p className='text-2xl text-accent'>Director</p>
    <p className="text-sm ">
-   Parveez Ahmad has over 20 years of experience delivering integration strategies and architectures for many prestigious clients. At Exalt System, He leads the delivery of large business transformations involving MuleSoft integrations
+   Parveez Ahmad has over 20 years of experience delivering integration strategies and architectures for many prestigious clients. At GoExalt System, He leads the delivery of large business transformations involving MuleSoft integrations
    </p>
    </div>
    </div>

@@ -42,12 +42,12 @@ const SalesforceErp = () => {
 
           </h1>
           <p className="text-lg sm:text-xl  mb-6">
-          Exalt System as a one-stop shop for Enterprise Resource Planning (ERP) system implementation empowers businesses of all sizes – small, medium, and large – to leverage the power of Oracle and NetSuite solutions and transform businesses. Our expertise covers the entire ERP lifecycle, from selecting the best cloud-based ERP system for your needs to seamless implementation and ongoing support.
+          GoExalt System as a one-stop shop for Enterprise Resource Planning (ERP) system implementation empowers businesses of all sizes – small, medium, and large – to leverage the power of Oracle and NetSuite solutions and transform businesses. Our expertise covers the entire ERP lifecycle, from selecting the best cloud-based ERP system for your needs to seamless implementation and ongoing support.
 
           </p>
 
           <p className="text-lg sm:text-xl  mb-6">
-          Whether you are new to ERP or looking to optimize your existing system, Exalt System delivers custom-fit ERP solutions that drive efficiency and growth across various industries like manufacturing, healthcare, Hi-Tech, and others.
+          Whether you are new to ERP or looking to optimize your existing system, GoExalt System delivers custom-fit ERP solutions that drive efficiency and growth across various industries like manufacturing, healthcare, Hi-Tech, and others.
 
           </p>
         
@@ -76,7 +76,7 @@ const SalesforceErp = () => {
   <div className="flex-1 text-center lg:text-left">
     <h1 className="text-2xl sm:text-3xl font-bold text-gray-800 mb-4">Our ERP Services Portfolio</h1>
     <p className="text-gray-600 text-base sm:text-lg">
-    With over 20 years of expertise, Exalt System’ ERP team has successfully delivered multiple implementation and managed services projects and is recognized for providing exceptional customer support, seamless integrations, and other initiatives..
+    With over 20 years of expertise, GoExalt System’ ERP team has successfully delivered multiple implementation and managed services projects and is recognized for providing exceptional customer support, seamless integrations, and other initiatives..
     </p>
   </div>
 
@@ -155,7 +155,7 @@ const SalesforceErp = () => {
         {/* Card 1 */}
         <div className="card bg-gray-700 rounded-lg shadow-lg hover:shadow-2xl  w-80 p-6">
           <img
-            src="https://images.pexels.com/photos/6693655/pexels-photo-6693655.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            src="https://images.pexels.com/photos/4064824/pexels-photo-4064824.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
             className="rounded-md mb-4 w-full"
           />
           
@@ -167,7 +167,7 @@ const SalesforceErp = () => {
         {/* Card 2 */}
         <div className="card bg-gray-700 rounded-lg shadow-lg hover:shadow-2xl  w-80 p-6"  data-aos="fade-right">
           <img
-            src="https://images.pexels.com/photos/6693655/pexels-photo-6693655.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            src="https://images.pexels.com/photos/590041/pexels-photo-590041.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
             alt="Feature 2"
             className="rounded-md mb-4 w-full"
           />
@@ -180,13 +180,13 @@ const SalesforceErp = () => {
         {/* Card 3 */}
         <div className="card bg-gray-700 rounded-lg shadow-lg hover:shadow-2xl  w-80 p-6"  data-aos="fade-right">
           <img
-            src="https://images.pexels.com/photos/6693655/pexels-photo-6693655.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            src="https://images.pexels.com/photos/1089438/pexels-photo-1089438.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
             alt="Feature 3"
             className="rounded-md mb-4 w-full"
           />
          
           <p className="text-gray-300">
-          Exalt System Enables Migration to Oracle Cloud, Reengineers the Business Process to Improve Productivity by 80%
+          GoExalt System Enables Migration to Oracle Cloud, Re-Engineers the Business Process to Improve Productivity by 80%
           </p>
         </div>
       </div>

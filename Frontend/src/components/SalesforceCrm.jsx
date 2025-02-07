@@ -40,7 +40,7 @@ const SalesforceCrm = () => {
           Our CRM Portfolio
           </h1>
           <p className="text-lg sm:text-xl  mb-6">
-          At Exalt System, we understand your business requirements and help connect the dots using our E2E CRM solutions and services. Our specialist team ensures that the implemented CRM software enables businesses to make data-backed strategic decisions to boost overall performance
+          At GoExalt System, we understand your business requirements and help connect the dots using our E2E CRM solutions and services. Our specialist team ensures that the implemented CRM software enables businesses to make data-backed strategic decisions to boost overall performance
           </p>
         
           <Link
@@ -144,7 +144,7 @@ const SalesforceCrm = () => {
         {/* Card 1 */}
         <div className="card bg-gray-700 rounded-lg shadow-lg hover:shadow-2xl  w-80 p-6">
           <img
-            src="https://images.pexels.com/photos/6693655/pexels-photo-6693655.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            src="https://images.pexels.com/photos/7567525/pexels-photo-7567525.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
             className="rounded-md mb-4 w-full"
           />
           
@@ -156,7 +156,7 @@ const SalesforceCrm = () => {
         {/* Card 2 */}
         <div className="card bg-gray-700 rounded-lg shadow-lg hover:shadow-2xl  w-80 p-6"  data-aos="fade-right">
           <img
-            src="https://images.pexels.com/photos/6693655/pexels-photo-6693655.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            src="https://images.pexels.com/photos/7176305/pexels-photo-7176305.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
             alt="Feature 2"
             className="rounded-md mb-4 w-full"
           />
@@ -169,7 +169,7 @@ const SalesforceCrm = () => {
         {/* Card 3 */}
         <div className="card bg-gray-700 rounded-lg shadow-lg hover:shadow-2xl  w-80 p-6"  data-aos="fade-right">
           <img
-            src="https://images.pexels.com/photos/6693655/pexels-photo-6693655.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            src="https://images.pexels.com/photos/3861972/pexels-photo-3861972.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
             alt="Feature 3"
             className="rounded-md mb-4 w-full"
           />

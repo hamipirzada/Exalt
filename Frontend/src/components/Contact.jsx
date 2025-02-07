@@ -105,10 +105,10 @@ const Contact = () => {
       Office No. 136 & 137, First Floor,
       </p>
       <p className=" font-bold lg:text-lg sm:text-sm">
-      Right Wing Arish Complex, Model
+      Right Wing Arish Complex,
       </p>
       <p className=" font-bold lg:text-lg sm:text-sm">
-      Town-D Sopore, Baramulla J&K 193201
+      Model Town-D, 193201
       </p>
     </div>
   </div>
@@ -123,10 +123,10 @@ const Contact = () => {
         Email: sales@exaltsystem.com,
       </p>
       <p className=" font-bold lg:text-lg sm:text-sm">
-        Phone: (+91)7051963883
+        Phone: +1-443-851-3193
       </p>
       <p className=" font-bold lg:text-lg sm:text-sm">
-        (+91)7006334491 / (+91)7051574421
+        (+91)7006334491 
       </p>
     </div>
   </div>
@@ -138,7 +138,7 @@ const Contact = () => {
     </div>
     <div className="ml-3 mt-2">
       <p className=" font-bold lg:text-lg sm:text-sm">
-        Mon – Sun: 10:30 AM – 5:00 PM
+        Mon – Fri: 09:00 AM – 06:00 PM
       </p>
     </div>
   </div>

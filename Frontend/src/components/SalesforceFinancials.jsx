@@ -40,7 +40,7 @@ const SalesforceFinancials = () => {
 
           </h1>
           <p className="text-lg sm:text-xl mb-6">
-          Exalt System is a leading service provider in automating and streamlining Financial Management and specializes in Revenue Management, Revenue Operations, and Revenue Recognition. Forsys uses in-house accelerators, bolt-on solutions, industry templates, and standardized frameworks to seamlessly execute projects, transform businesses, and optimize processes.
+          GoExalt System is a leading service provider in automating and streamlining Financial Management and specializes in Revenue Management, Revenue Operations, and Revenue Recognition. Forsys uses in-house accelerators, bolt-on solutions, industry templates, and standardized frameworks to seamlessly execute projects, transform businesses, and optimize processes.
 
           </p>
 
@@ -60,7 +60,7 @@ const SalesforceFinancials = () => {
   <div className="flex-1 text-center lg:text-left">
     <h1 className="text-2xl sm:text-3xl font-bold text-gray-800 mb-4">Our  Portfolio</h1>
     <p className="text-gray-600 text-base sm:text-lg">
-    As an Oracle Gold Certified & Cloud Excellence partner and End-to-End NetSuite partner, Exalt System has executed 30+ projects in various industries.
+    As an Oracle Gold Certified & Cloud Excellence partner and End-to-End NetSuite partner, GoExalt System has executed 30+ projects in various industries.
     </p>
   </div>
 
@@ -84,7 +84,7 @@ const SalesforceFinancials = () => {
 
 <div className="lg:h-[150px] mt-5 pb-4 flex text-center justify-center">
   <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold">
-    <samp className="text-accent">-</samp>  Why Exalt System for Financial Management  <samp className="text-accent">-</samp>
+    <samp className="text-accent">-</samp>  Why GoExalt System for Financial Management  <samp className="text-accent">-</samp>
   </h1>
 </div>
 <h1 className="text-2xl sm:text-4xl font-bold text-accent mb-4"></h1>
@@ -186,19 +186,19 @@ const SalesforceFinancials = () => {
         {/* Card 1 */}
         <div className="card bg-gray-700 rounded-lg shadow-lg hover:shadow-2xl  w-80 p-6">
           <img
-            src="https://images.pexels.com/photos/6693655/pexels-photo-6693655.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            src="https://images.pexels.com/photos/14887693/pexels-photo-14887693.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
             className="rounded-md mb-4 w-full"
           />
           
           <p className="text-gray-300">
-          Exalt System Integrates Mainframes & Oracle Financial Clouds, Improves Financial Data Management for an Ivy League
+          GoExalt System Integrates Mainframes & Oracle Financial Clouds, Improves Financial Data Management for an Ivy League
           </p>
         </div>
 
         {/* Card 2 */}
         <div className="card bg-gray-700 rounded-lg shadow-lg hover:shadow-2xl  w-80 p-6"  data-aos="fade-right">
           <img
-            src="https://images.pexels.com/photos/6693655/pexels-photo-6693655.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            src="https://images.pexels.com/photos/95916/pexels-photo-95916.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
             alt="Feature 2"
             className="rounded-md mb-4 w-full"
           />
@@ -211,7 +211,7 @@ const SalesforceFinancials = () => {
         {/* Card 3 */}
         <div className="card bg-gray-700 rounded-lg shadow-lg hover:shadow-2xl  w-80 p-6"  data-aos="fade-right">
           <img
-            src="https://images.pexels.com/photos/6693655/pexels-photo-6693655.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            src="https://images.pexels.com/photos/30515366/pexels-photo-30515366/free-photo-of-euro-banknotes-and-coins-on-financial-charts.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
             alt="Feature 3"
             className="rounded-md mb-4 w-full"
           />
@@ -330,7 +330,7 @@ const SalesforceFinancials = () => {
 
 
 <p className="text-sm ">
-Naveed Ahmad has over 20 years of experience and is an expert in Oracle ERP – Oracle Projects Suite, Oracle Financials, Oracle CRM, and HR. He leads Financial Management solutions at Exalt System
+Naveed Ahmad has over 20 years of experience and is an expert in Oracle ERP – Oracle Projects Suite, Oracle Financials, Oracle CRM, and HR. He leads Financial Management solutions at GoExalt System
 </p>
 </div>
 </div>

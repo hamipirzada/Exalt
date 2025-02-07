@@ -68,7 +68,7 @@ const SalesforceChain = () => {
 
           </h1>
           <p className="text-lg sm:text-xl  mb-6">
-          Exalt System is a leading service provider in automating and streamlining Financial Management and specializes in Revenue Management, Revenue Operations, and Revenue Recognition. Exalt System uses in-house accelerators, bolt-on solutions, industry templates, and standardized frameworks to seamlessly execute projects, transform businesses, and optimize processes.
+          GoExalt System is a leading service provider in automating and streamlining Financial Management and specializes in Revenue Management, Revenue Operations, and Revenue Recognition. GoExalt System uses in-house accelerators, bolt-on solutions, industry templates, and standardized frameworks to seamlessly execute projects, transform businesses, and optimize processes.
 
           </p>
 
@@ -92,7 +92,7 @@ const SalesforceChain = () => {
   </h1>
 </div>
 
-      <p className="text-xl font-bold mb-6">Exalt System SCM expertise reduces disruptions, lowers costs, and gives real-time supply chain visibility to operations and finances. Our expertise include:</p>
+      <p className="text-xl font-bold mb-6">GoExalt System SCM expertise reduces disruptions, lowers costs, and gives real-time supply chain visibility to operations and finances. Our expertise include:</p>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
         {cards.map((card) => (
           <div
@@ -136,19 +136,19 @@ const SalesforceChain = () => {
         {/* Card 1 */}
         <div className="card bg-gray-700 rounded-lg shadow-lg hover:shadow-2xl  w-80 p-6">
           <img
-            src="https://images.pexels.com/photos/6693655/pexels-photo-6693655.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            src="https://images.pexels.com/photos/1178684/pexels-photo-1178684.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
             className="rounded-md mb-4 w-full"
           />
           
           <p className="text-gray-300">
-          Exalt System implements oracle order management, saves 50% time on TPI validation
+          GoExalt System implements oracle order management, saves 50% time on TPI validation
           </p>
         </div>
 
         {/* Card 2 */}
         <div className="card bg-gray-700 rounded-lg shadow-lg hover:shadow-2xl  w-80 p-6"  data-aos="fade-right">
           <img
-            src="https://images.pexels.com/photos/6693655/pexels-photo-6693655.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            src="https://images.pexels.com/photos/2628105/pexels-photo-2628105.jpeg?auto=compress&cs=tinysrgb&w=800"
             alt="Feature 2"
             className="rounded-md mb-4 w-full"
           />
@@ -161,13 +161,13 @@ const SalesforceChain = () => {
         {/* Card 3 */}
         <div className="card bg-gray-700 rounded-lg shadow-lg hover:shadow-2xl  w-80 p-6"  data-aos="fade-right">
           <img
-            src="https://images.pexels.com/photos/6693655/pexels-photo-6693655.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            src="https://images.pexels.com/photos/18467639/pexels-photo-18467639/free-photo-of-eco-friendly-paper-with-typewriter-and-pen.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
             alt="Feature 3"
             className="rounded-md mb-4 w-full"
           />
          
           <p className="text-gray-300">
-          Exalt System’ Customized Solution on Resource Capacity Streamlines Planned Orders Data & Contributes to 20% Reduction in Carbon Footprint
+          GoExalt System’ Customized Solution on Resource Capacity Streamlines Planned Orders Data & Contributes to 20% Reduction in Carbon Footprint
           </p>
         </div>
       </div>

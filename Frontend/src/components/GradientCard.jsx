@@ -23,7 +23,7 @@ const GradientCard = () => {
       title: "Odoo",
       subtitle: "Integration",
       description:
-        "Odoo integration the solution moves ahead with your Odoo platform as well as the unique tools which support your business operations. However, Odoo ERP Integration should be done with the right expertise ExaltSystem is your trustful expert Odoo Official partner with 16+ years of service. ",
+        "Odoo integration the solution moves ahead with your Odoo platform as well as the unique tools which support your business operations. However, Odoo ERP Integration should be done with the right expertise GoExalt System is your trustful expert Odoo Official partner with 16+ years of service. ",
       image:
         "https://images.pexels.com/photos/3184296/pexels-photo-3184296.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       gradient: "from-purple-600 via-slate-500 to-purple-900",

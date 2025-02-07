@@ -7,7 +7,7 @@ const ProfileCard = () => {
       name: "Showkat Bhat",
       role: "Technical Architect",
       description:
-      "ExaltSystem is a top technology firm specializing in R&D, SaaS, PaaS, and innovative software solutions for clients worldwide."
+      "GoExalt System is a top technology firm specializing in R&D, SaaS, PaaS, and innovative software solutions for clients worldwide."
        
     },
     {
@@ -15,7 +15,7 @@ const ProfileCard = () => {
       name: "Mudassir Dar",
       role: "Lead Developer",
       description:
-        "Tech StartUp is Innovation War and Innovation is Everything and Everything is Software and ExaltSystem is In War",
+        "Tech StartUp is Innovation War and Innovation is Everything and Everything is Software and GoExalt System is In War",
     },
     {
       img: "https://images.pexels.com/photos/30207232/pexels-photo-30207232/free-photo-of-moody-portrait-of-a-man-with-a-beard.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",

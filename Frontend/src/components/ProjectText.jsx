@@ -29,7 +29,7 @@ const ProjectText = () => {
           className=" text-center"
           data-aos="fade-up" 
         >
-          When it comes to the core, We at ExaltSystem always believe in providing creative solutions to clients within the allotted time frame.
+          When it comes to the core, We at GoExalt System always believe in providing creative solutions to clients within the allotted time frame.
         </p>
       </div>
     </div>
