@@ -43,7 +43,6 @@ export const Navbar = () => {
             <Link
               to="/home"
               className="font-bold text-sm mx-4 transition-colors duration-300"
-              // style={{ WebkitTextStroke: "1px black", textStroke: "1px black" }}
 
             >
               HOME
@@ -105,95 +104,95 @@ export const Navbar = () => {
                 <div className="absolute lg:w-[280px] bg-white shadow-lg mt-0 rounded-xl z-50">
                   <Link
                     to="/salesforce-development"
-                    className="block px-4 py-2 text-black hover:bg-slate-500"
+                    className="block px-3 py-1 text-black hover:bg-slate-500"
                   >
                     Salesforce Development
                   </Link>
                   <Link
                     to="/salesforce-lightning"
-                     className="block px-4 py-2 text-black hover:bg-slate-500"
+                     className="block px-3 py-1 text-black hover:bg-slate-500"
                   >
                     Salesforce Lightning & (LWC)
                   </Link>
                   <Link
                     to="/salesforce-consulting"
-                    className="block px-4 py-2 text-black  hover:bg-slate-500"
+                    className="block px-3 py-1 text-black  hover:bg-slate-500"
                   >
                     Salesforce Consulting
                   </Link>
                   <Link
                     to="/salesforce-training"
-                    className="block px-4 py-2 text-black hover:bg-slate-500 "
+                    className="block px-3 py-1 text-black hover:bg-slate-500 "
                   >
                     Salesforce Training Program
                   </Link>
 
                   <Link
                     to="/salesforce-billing"
-                    className="block px-4 py-2 text-black hover:bg-slate-500"
+                    className="block px-3 py-1 text-black hover:bg-slate-500"
                     onClick={() => setIsOpen(false)}
                   >
                    Billing
                   </Link>
                   <Link
                     to="/salesforce-clm"
-                   className="block px-4 py-2 text-black hover:bg-slate-500"
+                   className="block px-3 py-1 text-black hover:bg-slate-500"
                     onClick={() => setIsOpen(false)}
                   >
                    CLM
                   </Link>
                   <Link
                     to="/salesforce-cfq"
-                    className="block px-4 py-2 text-black hover:bg-slate-500"
+                    className="block px-3 py-1 text-black hover:bg-slate-500"
                     onClick={() => setIsOpen(false)}
                   >
                   CPQ
                   </Link>
                   <Link
                     to="/salesforce-crm"
-                    className="block px-4 py-2 text-black hover:bg-slate-500"
+                    className="block px-3 py-1 text-black hover:bg-slate-500"
                     onClick={() => setIsOpen(false)}
                   >
                    CRM
                   </Link>
                   <Link
                     to="/salesforce-engineering"
-                   className="block px-4 py-2 text-black hover:bg-slate-500"
+                   className="block px-3 py-1 text-black hover:bg-slate-500"
                     onClick={() => setIsOpen(false)}
                   >
                    Data Engineering & Integration 
                   </Link>
                   <Link
                     to="/salesforce-commerce"
-                    className="block px-4 py-2 text-black hover:bg-slate-500"
+                    className="block px-3 py-1 text-black hover:bg-slate-500"
                     onClick={() => setIsOpen(false)}
                   >
                    Digital Commerce
                   </Link>
                   <Link
                     to="/salesforce-erp"
-                    className="block px-4 py-2 text-black hover:bg-slate-500"
+                    className="block px-3 py-1 text-black hover:bg-slate-500"
                     onClick={() => setIsOpen(false)}
                   >
                   ERP
                   </Link>
                   <Link
                     to="/salesforce-finacials"
-                    className="block px-4 py-2 text-black hover:bg-slate-500"
+                    className="block px-3 py-1 text-black hover:bg-slate-500"
                     onClick={() => setIsOpen(false)}
                   >
                    Finance
                   </Link>
                   <Link
                     to="/salesforce-service"
-                    className="block px-4 py-2 text-black hover:bg-slate-500"
+                    className="block px-3 py-1 text-black hover:bg-slate-500"
                     onClick={() => setIsOpen(false)}
                   >
                    Managed Services
                   </Link>
                   <Link
                     to="/salesforce-chain"
-                    className="block px-4 py-2 text-black hover:bg-slate-500"
+                    className="block px-3 py-1 text-black hover:bg-slate-500"
                     onClick={() => setIsOpen(false)}
                   >
                    Supply Chain
@@ -454,7 +453,7 @@ export const Navbar = () => {
     onClick={toggleDropdown}
     className="font-bold text-sm mx-4 hover:text-accent transition-colors duration-300"
   >
-    THEMES
+    
   </button>
 
   {isDropdownOpen && (
