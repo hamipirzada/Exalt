@@ -72,19 +72,19 @@ export const Navbar = () => {
                 <div className="absolute bg-white lg:w-[280px]  shadow-lg mt-0 rounded-xl z-50 ">
                   <Link
                     to="/odoo-customization"
-                    className="block px-4 py-2 text-black  hover:bg-slate-500  "
+                    className="block px-3 py-1 text-black  hover:bg-slate-500  "
                   >
                     Odoo Customization
                   </Link>
                   <Link
                     to="/odoo-products"
-                    className="block px-4 py-2 text-black hover:bg-slate-500"
+                    className="block px-3 py-1 text-black hover:bg-slate-500"
                   >
                     Odoo Products
                   </Link>
                   <Link
                     to="/odoo-integration"
-                    className="block px-4 py-2 text-black  hover:bg-slate-500 "
+                    className="block px-3 py-1 text-black  hover:bg-slate-500 "
                   >
                     Odoo Integration
                   </Link>
