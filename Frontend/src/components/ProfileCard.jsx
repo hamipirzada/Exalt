@@ -65,7 +65,7 @@ const ProfileCard = () => {
             transform: translateX(0);
           }
           100% {
-            transform: translateX(-100%);
+            transform: translateX(-417%);
           }
         }
         .animate-scroll {
