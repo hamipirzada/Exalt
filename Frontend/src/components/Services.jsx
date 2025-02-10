@@ -118,8 +118,8 @@ const Services = () => {
 
 
     <div>
-        <h1 className="text-center text-4xl font-bold mt-10">Salesforce®️ Development</h1>
-        <p className="text-center text-xl mt-5">From startups to enterprises, we help organizations make more out of their Salesforce CRM. We are end-to-end Salesforce experts. And yes, we will forever redefine how you use Salesforce®️.</p>
+        <h1 className="text-center text-4xl font-bold mt-10">Salesforce Development</h1>
+        <p className="text-center text-xl mt-5 p-6">From startups to enterprises, we help organizations make more out of their Salesforce CRM. We are end-to-end Salesforce experts. And yes, we will forever redefine how you use Salesforce.</p>
     </div>
 
     <div>
@@ -876,7 +876,7 @@ data-aos="fade-right" >
         </div>
 
         <div className="bg-white shadow-lg  rounded-lg p-6 hover:shadow-2xl transition duration-300">
-        <SiContentstack size={35} className="text-slate-400"/>
+        <SiContentstack size={35} className="text-fuchsia-500"/>
 
           <h1 className="text-xl font-semibold text-gray-900 mb-4">
           Content Marketing          </h1>
@@ -888,7 +888,7 @@ data-aos="fade-right" >
 
 
         <div className="bg-white shadow-lg  rounded-lg p-6 hover:shadow-2xl transition duration-300">
-        <TbBusinessplan size={35} className="text-slate-400"/>
+        <TbBusinessplan size={35} className="text-emerald-600"/>
 
           <h1 className="text-xl font-semibold text-gray-900 mb-4">
           B2B Marketing          </h1>
@@ -900,7 +900,7 @@ data-aos="fade-right" >
 
 
         <div className="bg-white shadow-lg  rounded-lg p-6 hover:shadow-2xl transition duration-300">
-        <TiMessages size={35} className="text-slate-400"/>
+        <TiMessages size={35} className="text-yellow-400"/>
 
           <h1 className="text-xl font-semibold text-gray-900 mb-4">
           Messaging and Positioning          </h1>
@@ -911,7 +911,7 @@ data-aos="fade-right" >
 
 
         <div className="bg-white shadow-lg  rounded-lg p-6 hover:shadow-2xl transition duration-300">
-        <FaVideo size={35} className="text-slate-400"/>
+        <FaVideo size={35} className="text-teal-500"/>
 
           <h1 className="text-xl font-semibold text-gray-900 mb-4">
           Video Production          </h1>
@@ -922,7 +922,7 @@ data-aos="fade-right" >
 
 
         <div className="bg-white shadow-lg  rounded-lg p-6 hover:shadow-2xl transition duration-300">
-        <TbAffiliateFilled size={35} className="text-slate-400"/>
+        <TbAffiliateFilled size={35} className="text-blue-500"/>
 
           <h1 className="text-xl font-semibold text-gray-900 mb-4">
           Affiliate Marketing
@@ -936,7 +936,7 @@ data-aos="fade-right" >
 
 
         <div className="bg-white shadow-lg  rounded-lg p-6 hover:shadow-2xl transition duration-300">
-        <TiSocialAtCircular size={35} className="text-slate-400"/>
+        <TiSocialAtCircular size={35} className="text-amber-700"/>
 
           <h1 className="text-xl font-semibold text-gray-900 mb-4">
           Paid Social          </h1>
