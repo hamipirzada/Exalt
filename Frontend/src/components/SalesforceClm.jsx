@@ -13,6 +13,8 @@ import { MdOutlineMovieCreation } from "react-icons/md";
 import { RiUserSharedLine } from "react-icons/ri";
 import { MdOutlineAutorenew } from "react-icons/md";
 import { FaFileSignature } from "react-icons/fa";
+import Quick from './Quick';
+import WhatsApp from './WhatsApp';
 
 
 const SalesforceClm = () => {
@@ -45,6 +47,8 @@ const SalesforceClm = () => {
         
         
                 <Navbar/>
+                <Quick/>
+                <WhatsApp/>
                           
                 <div className="relative h-[450px] bg-cover overflow-hidden flex items-center justify-center  " data-aos="fade-right">
                         <img
@@ -289,7 +293,7 @@ GoExalt System is a preferred Conga partner for transforming manual contracting 
         className="rounded-md mb-4 w-full"
       />
       <p className="text-gray-300">
-      Leading Healthcare Platform Provider Relies on Exalt System Managed Services for Conga CLM Solution, Reduces IT Costs by ~25%
+      Leading Healthcare Platform Provider Relies on GoExalt System Managed Services for Conga CLM Solution, Reduces IT Costs by ~25%
       </p>
     </div>
   </div>

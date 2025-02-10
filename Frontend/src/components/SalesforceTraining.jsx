@@ -12,6 +12,8 @@ import { PiCampfireBold } from "react-icons/pi";
 
 
 import { Address } from './Address';
+import Quick from './Quick';
+import WhatsApp from './WhatsApp';
 
 const SalesforceTraining = () => {
       useEffect(() => {
@@ -22,6 +24,8 @@ const SalesforceTraining = () => {
 
 
         <Navbar/>
+        <Quick/>
+        <WhatsApp/>
                   
         <div className="relative h-[450px] bg-cover overflow-hidden flex items-center justify-center  " data-aos="fade-right">
                 <img

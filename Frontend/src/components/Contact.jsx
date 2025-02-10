@@ -8,6 +8,8 @@ import { FaRegAddressCard } from "react-icons/fa6";
 import { TiSocialAtCircular } from "react-icons/ti";
 import { FaPhoneAlt } from "react-icons/fa";
 import { MdOutlineAccessTime } from "react-icons/md";
+import Quick from "./Quick";
+import WhatsApp from "./WhatsApp";
 
 
 
@@ -18,6 +20,8 @@ const Contact = () => {
   return (
     <>
    <Navbar/>
+   <Quick/>
+   <WhatsApp/>
    <div className="min-h-screen  flex flex-col md:flex-row p-6">
   
       <div className="shadow-md rounded-tl-full p-3 w-full md:w-1/2 mb-6 md:mb-0">

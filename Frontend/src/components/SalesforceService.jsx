@@ -6,6 +6,8 @@ import  { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css"
 import { Address } from './Address';
+import Quick from './Quick';
+import WhatsApp from './WhatsApp';
 
 
  
@@ -18,6 +20,8 @@ const SalesforceService = () => {
   return (
     <div>
         <Navbar/>
+        <Quick/>
+        <WhatsApp/>
 
 
 

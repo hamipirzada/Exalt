@@ -90,7 +90,7 @@ export const Address = () => {
            602 - Chester, Nyati Eternity,
            <br /> Pune 411060, Maharashtra
          </p>
-         <p className="text-lg ">sales@exaltsystem.com <br /> +91-7006334491</p>
+         <p className="text-lg ">sales@exaltsystem.com <br /> +91-7051294074</p>
            
          
        </div>

@@ -13,6 +13,7 @@ import Projects from "./Projects"
 import GradientCard from "./GradientCard"
 import Journey from "./Journey"
 import Questions from "./Questions"
+import WhatsApp from "./WhatsApp"
   
 
 
@@ -27,7 +28,7 @@ const Home = () => {
  
     
     <Navbar/>
-    
+    <WhatsApp/>
    <Quick/> 
     <Hero/>
     <GradientCard/>

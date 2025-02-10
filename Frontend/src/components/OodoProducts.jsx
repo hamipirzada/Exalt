@@ -6,6 +6,8 @@ import "aos/dist/aos.css";
 import oodo from "../assets/odoo_logo.png";
 import { Address } from "./Address";
 import { Navbar } from "./Navbar";
+import Quick from "./Quick";
+import WhatsApp from "./WhatsApp";
 
 const OodoProducts = () => {
   useEffect(() => {
@@ -14,6 +16,8 @@ const OodoProducts = () => {
   return (
     <>
    <Navbar/>
+   <Quick/>
+   <WhatsApp/>
     <div>
     
       <section>
@@ -148,6 +152,7 @@ Odoo  Verticals
               "Odoo Upgradation",
               "Odoo Training",
               "Odoo Support",
+              "Odoo Migration",
             ].map((item, index) => (
                 <div
                 key={index}

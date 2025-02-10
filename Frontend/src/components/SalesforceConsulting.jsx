@@ -1,11 +1,13 @@
 import { Link } from 'react-router-dom'
 import salesforce from '../assets/Salesforce Logo.jpeg'
 import { Navbar } from './Navbar'
+import Quick from "./Quick"
 
 import  { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css"
 import { Address } from './Address';
+import WhatsApp from './WhatsApp';
 
 const SalesforceConsulting = () => {
          useEffect(() => {
@@ -14,6 +16,8 @@ const SalesforceConsulting = () => {
   return (
     <div>
         <Navbar/>
+        <Quick/>
+        <WhatsApp/>
                   
                   <div className="relative h-[450px] bg-cover overflow-hidden flex items-center justify-center"  data-aos="fade-right">
                 <img
@@ -112,45 +116,45 @@ const SalesforceConsulting = () => {
 
      
         
-  <p className="text-center ml-10 w-[90%] bg-gradient-to-r from-gray-500 via-lime-700 text-lg mb-8">
-    If you plan to implement Salesforce or improve your existing solution, ScienceSoft provides comprehensive consulting, which includes:
+  <p className="text-center ml-10 w-[90%]   text-lg mb-8">
+    If you plan to implement Salesforce or improve your existing solution, GoExalt System provides comprehensive consulting, which includes:
   </p>
 
   <div className="space-y-8">
     {/* Business Objectives */}
-    <div className="bg-gradient-to-t from-white via-slate-50 to-black p-6 rounded-lg shadow-md max-w-3xl mx-auto" data-aos="fade-down">
+    <div className="bg-gradient-to-r from-indigo-500  to-pink-400 p-6 rounded-lg shadow-md max-w-3xl mx-auto" data-aos="fade-down">
       <h3 className="text-2xl font-semibold mb-4">Defining Business Objectives</h3>
-      <p className="text-gray-600">
+      <p className="text-white">
         Salesforce is to support your business objectives. Whether you need to enable reports with increased visibility, reduce long sales cycles or case resolution time, introduce efficient email marketing campaigns or automate your sales and customer service-related processes, Salesforce consulting helps to address your challenges timely and efficiently.
       </p>
     </div>
 
     {/* Mapping Business Objectives */}
-    <div className="bg-gradient-to-t from-slate-500 via-yellow-200 to-cyan-500 p-6 rounded-lg shadow-md max-w-3xl mx-auto" data-aos="fade-down">
+    <div className="bg-gradient-to-r from-indigo-500  to-pink-400 p-6 rounded-lg shadow-md max-w-3xl mx-auto" data-aos="fade-down">
       <h3 className="text-2xl font-semibold mb-4">Mapping Business Objectives into Salesforce Features</h3>
-      <p className="text-gray-600">
+      <p className="text-white">
         After your business goals are clear, it&apos;s time to choose the appropriate Salesforce functionality (either default or custom) to achieve them.
       </p>
     </div>
 
     {/* Recommending Salesforce Edition */}
-    <div className="bg-gradient-to-b from-black via-cyan-300 to-blue-300 p-6 rounded-lg shadow-md max-w-3xl mx-auto" data-aos="fade-down">
+    <div className="bg-gradient-to-r from-indigo-500  to-pink-400 p-6 rounded-lg shadow-md max-w-3xl mx-auto" data-aos="fade-down">
       <h3 className="text-2xl font-semibold mb-4">Recommending the Most Suitable Salesforce Edition</h3>
-      <p className="text-gray-600">
+      <p className="text-white">
         Choosing the right edition means that you get your business challenges addressed without paying for unneeded features. We analyze your requirements and suggest an edition, which will be a perfect match for your business.
       </p>
     </div>
 
     {/* Designing Processes */}
-    <div className="bg-gradient-to-b from-slate-700 via-teal-400 to-blue-300 p-6 rounded-lg shadow-md max-w-3xl mx-auto" data-aos="fade-down">
+    <div className="bg-gradient-to-r from-indigo-500  to-pink-400 p-6 rounded-lg shadow-md max-w-3xl mx-auto" data-aos="fade-down">
       <h3 className="text-2xl font-semibold mb-4">Designing Sales, Customer Service, and Marketing Processes</h3>
-      <p className="text-gray-600">
+      <p className="text-white">
         We design and automate sales, customer service, and marketing processes using Salesforce Sales, Service, and Marketing Clouds. This includes personalized customer journeys, targeted advertising campaigns, and more to help you reach your business goals.
       </p>
     </div>
 
     {/* User Adoption Strategy */}
-    <div className="bg-gradient-to-b from-slate-700 via-emerald-400 to-purple-300 p-6 rounded-lg shadow-md max-w-3xl mx-auto" data-aos="fade-down">
+    <div className="bg-gradient-to-r from-indigo-500  to-pink-400 p-6 rounded-lg shadow-md max-w-3xl mx-auto" data-aos="fade-down">
       <h3 className="text-2xl font-semibold mb-4">Designing a User Adoption Strategy</h3>
       <p className="text-gray-600">
         To help your users master the new system, we create a user adoption strategy that includes iterative user training, timely user support by the Salesforce admin, release notes, and rewards for advanced Salesforce users.

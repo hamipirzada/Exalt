@@ -5,11 +5,15 @@ import { FaArrowsTurnToDots } from "react-icons/fa6";
 import { MdOutlineIntegrationInstructions } from "react-icons/md";
 import { Address } from "./Address";
 import salesforce from '../assets/Salesforce Logo.jpeg'
+import Quick from "./Quick";
+import WhatsApp from "./WhatsApp";
 
 const SalesforceDevelopment = () => {
   return (
     <div>
           <Navbar/>
+          <Quick/>
+          <WhatsApp/>
           
             <div className="relative h-[450px] bg-cover overflow-hidden flex items-center justify-center">
           <img
@@ -25,7 +29,7 @@ const SalesforceDevelopment = () => {
 
         <div>
         <h1 className="text-center text-4xl font-bold mt-10">Salesforce Development</h1>
-        <p className="text-center text-xl mt-5">From startups to enterprises, we help organizations make more out of their Salesforce CRM. We are end-to-end Salesforce experts. And yes, we will forever redefine how you use Salesforce.</p>
+        <p className="text-center text-xl mt-5 p-24">From startups to enterprises, we help organizations make more out of their Salesforce CRM. We are end-to-end Salesforce experts. And yes, we will forever redefine how you use Salesforce.</p>
     </div>
 
 
@@ -91,7 +95,7 @@ const SalesforceDevelopment = () => {
           {/* Main Container */}
           <div className="w-[90%] mx-auto bg-gradient-to-r from-emerald-200 via-violet-400  rounded-3xl p-4 flex flex-col md:flex-row items-center shadow-lg" data-aos="fade-left">
             {/* Text Div */}
-            <div className="flex-1 p-4 bg-gradient-to-b from-emerald-200 via-slate-200 rounded-xl">
+            <div className="flex-1 p-4  rounded-xl">
               <h2 className="text-2xl font-bold text-gray-800 mb-2">Salesforce Development</h2>
               <p className="text-gray-600">
               Our expert developers can build comprehensive <span  className="font-semibold"> Custom Salesforce Development</span> Custom Salesforce Development solutions for your business utilizing any required Salesforce technologies such as Salesforce Sales Cloud, Wave Analytics, Service Cloud, Marketing Cloud and more </p>
@@ -118,9 +122,9 @@ const SalesforceDevelopment = () => {
             {/* Image Div */}
             <div className="flex-1 p-4">
               <img
-                src="https://images.pexels.com/photos/6476260/pexels-photo-6476260.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                src="https://images.pexels.com/photos/935977/pexels-photo-935977.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                 alt="Placeholder"
-                className="w-full h-auto rounded-3xl"
+                className="w-fit h-auto rounded-3xl"
               />
             </div>
           </div>

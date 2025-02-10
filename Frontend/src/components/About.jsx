@@ -5,6 +5,8 @@ import { Address } from "./Address";
 import AOS from "aos";
 import "aos/dist/aos.css"; 
 import { useEffect } from "react";
+import Quick from "./Quick";
+import WhatsApp from "./WhatsApp";
 
 
 // eslint-disable-next-line react/prop-types
@@ -55,6 +57,8 @@ const About = () => {
     <>
     <div>
     <Navbar/>
+    <Quick/>
+    <WhatsApp/>
  
 
 

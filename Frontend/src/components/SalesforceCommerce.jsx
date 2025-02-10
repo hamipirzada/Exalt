@@ -6,6 +6,8 @@ import AOS from "aos";
 import "aos/dist/aos.css"
 import digital from "../assets/Digital-Commerce.png"
 import { Address } from './Address';
+import Quick from './Quick';
+import WhatsApp from './WhatsApp';
 
 
 
@@ -18,6 +20,8 @@ const SalesforceCommerce = () => {
   return (
     <div>
         <Navbar/>
+        <Quick/>
+        <WhatsApp/>
 
 
 

@@ -5,11 +5,13 @@ import  { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css"
 import { Address } from './Address';
+import Quick from "./Quick"
 
 import { MdOutlineAssessment } from "react-icons/md";
 import { CiDatabase } from "react-icons/ci";
 import { MdMiscellaneousServices } from "react-icons/md";
 import { GiUpgrade } from "react-icons/gi";
+import WhatsApp from './WhatsApp';
 
 
 
@@ -21,7 +23,8 @@ const SalesforceCfq = () => {
   return (
     <div>
         <Navbar/>
-
+        <Quick/>
+        <WhatsApp/>
 
 
          <div className="relative h-[450px] bg-cover overflow-hidden flex items-center justify-center  " data-aos="fade-right">

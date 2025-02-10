@@ -15,14 +15,14 @@ const Card = () => {
     },
     {
       id: 2,
-      target: 40,
+      target: 20,
       description: "EMPLOYEES",
       icon: <FaHospitalUser className="text-6xl text-gray-400 mb-4" />,
       animationDelay: "1s",
     },
     {
       id: 3,
-      target: 100,
+      target: 50,
       description: "CLIENTS",
       icon: <GiGrowth className="text-6xl text-gray-400 mb-4" />,
       animationDelay: "2s",

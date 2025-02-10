@@ -16,6 +16,8 @@ import { Navbar } from "./Navbar";
 import AOS from "aos";
 import "aos/dist/aos.css"; 
 import { useEffect } from "react";
+import Quick from "./Quick";
+import WhatsApp from "./WhatsApp";
 
 const OodoIntegration = () => {
     useEffect(() => {
@@ -24,6 +26,8 @@ const OodoIntegration = () => {
   return (
     <>
       <Navbar />
+      <Quick/>
+      <WhatsApp/>
       <div>
         <section>
           <div>

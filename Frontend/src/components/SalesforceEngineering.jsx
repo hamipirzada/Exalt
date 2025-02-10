@@ -8,6 +8,8 @@ import { GiUpgrade } from 'react-icons/gi';
 import { MdMiscellaneousServices, MdOutlineAssessment } from 'react-icons/md';
 import { CiDatabase } from 'react-icons/ci';
 import { Address } from './Address';
+import Quick from './Quick';
+import WhatsApp from './WhatsApp';
 
 
 
@@ -22,6 +24,8 @@ const SalesforceEngineering = () => {
   return (
     <div>
         <Navbar/>
+        <Quick/>
+        <WhatsApp/>
 
 
 

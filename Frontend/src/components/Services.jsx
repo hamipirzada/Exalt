@@ -2,6 +2,7 @@ import { MdOutlineSettingsInputComponent } from "react-icons/md";
 import { FaLaptopCode } from "react-icons/fa6";
 import { FaArrowsTurnToDots } from "react-icons/fa6";
 import { MdOutlineIntegrationInstructions } from "react-icons/md";
+import Quick from "./Quick"
 
 
 import { GiBookshelf } from "react-icons/gi";
@@ -42,6 +43,7 @@ import { useEffect } from "react";
 import { Navbar } from "./Navbar";
 import { Address } from "./Address";
 import { Link } from "react-router-dom";
+import WhatsApp from "./WhatsApp";
 
 
 
@@ -104,11 +106,13 @@ const Services = () => {
   return (
     <>
     <Navbar/>
+    <Quick/>
+    <WhatsApp/>
   
     <div className="relative h-[450px] bg-cover overflow-hidden flex items-center justify-center">
   <img
     className="absolute top-0 left-0 w-full h-full object-cover"
-    src="https://images.pexels.com/photos/574080/pexels-photo-574080.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    src="https://images.pexels.com/photos/6963611/pexels-photo-6963611.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
     alt=""
   />
   <h1 className="relative text-5xl font-extrabold text-white z-10">
@@ -316,7 +320,7 @@ const Services = () => {
             </p>
 
             <p className="text-gray-600 text-center">
-            <span className="font-semibold text-center">  <samp className='text-accent text-3xl'>-</samp>Lighting Apps  <samp className='text-accent text-3xl'>-</samp></span> <br />
+            <span className="font-semibold text-center">  <samp className='text-accent text-3xl'>-</samp>Lightning Apps  <samp className='text-accent text-3xl'>-</samp></span> <br />
             Our <span className="font-semibold"> Dedicated Salesforce Developers </span> can create rich applications that work perfectly with Salesforce Lightning.
             </p>
 
@@ -337,7 +341,7 @@ const Services = () => {
 
     <div className="lg:h-[100px] mt-10  flex text-center justify-center">
   <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold">
-      Salesforce Lighting Development  
+      Salesforce Lightning Development  
   </h1>
 </div>
 
@@ -358,7 +362,7 @@ const Services = () => {
         </div>
         {/* Text Div */}
         <div className="flex-1 p-4">
-          <h2 className="text-2xl font-bold text-gray-800 mb-2">Salesforce Lighting  Development</h2>
+          <h2 className="text-2xl font-bold text-gray-800 mb-2">Salesforce Lightning  Development</h2>
           <p className="text-gray-600">
           The lightning experience has completely revitalized how businesses use Salesforce enabling a greater number of users to be able to use Salesforce. As a leading <span  className="font-semibold"> Salesforce Consulting Company, </span> MetaDesign Solutions can help your organization take complete advantage of Salesforce Lightning to make your Salesforce implementation more approachable and intuitive. </p>
           
@@ -398,10 +402,10 @@ const Services = () => {
 </div>
       
       {/* Main Container */}
-      <div className="w-[90%] mx-auto bg-gradient-to-r from-slate-600 via-violet-400  rounded-3xl p-4 flex flex-col md:flex-row items-center shadow-lg" data-aos="fade-left">
+      <div className="w-[90%] mx-auto bg-gradient-to-r from-slate-200 via-violet-400  rounded-3xl p-4 flex flex-col md:flex-row items-center shadow-lg" data-aos="fade-left">
         {/* Text Div */}
         <div className="flex-1 p-4">
-          <h2 className="text-2xl font-bold text-gray-800 mb-2">What You&apos;ll learn</h2>
+          <h2 className="text-2xl font-bold text-gray-800  mb-2">What You&apos;ll learn</h2>
           <li className="flex items-center" data-aos="fade-right">
             <span className="text-green-500 mr-4">✔</span>
             Master the fundamentals of Python programming, including variables, data types, and syntax

@@ -7,30 +7,30 @@ import { useEffect, useState } from "react";
 const Quick = () => {
 
 
-//     const [showButtons, setShowButtons] = useState(false);
+    const [showButtons, setShowButtons] = useState(false);
 
-//   useEffect(() => {
-//     const handleScroll = () => {
-//       setShowButtons(window.scrollY > 100);
-//     };
-//     window.addEventListener("scroll", handleScroll);
-//     return () => window.removeEventListener("scroll", handleScroll);
-//   }, []);
+  useEffect(() => {
+    const handleScroll = () => {
+      setShowButtons(window.scrollY > 100);
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
-//   const scrollToTop = () => {
-//     window.scrollTo({ top: 0, behavior: "smooth" });
-//   };
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
 
-//   const scrollToBottom = () => {
-//     window.scrollTo({ top: document.documentElement.scrollHeight, behavior: "smooth" });
-//   };
+  const scrollToBottom = () => {
+    window.scrollTo({ top: document.documentElement.scrollHeight, behavior: "smooth" });
+  };
 
     return (
         <div className="fixed right-4  sm:right-2 flex flex-col sm:flex-col items-end sm:items-center space-y-4 sm:space-y-6 z-40">
 
 
 
-{/* <div className="fixed right-4 sm:bottom-6 bottom-7  sm:right-2 flex flex-col sm:flex-col items-end sm:items-center space-y-4 sm:space-y-6 z-40">
+<div className="fixed right-4 sm:bottom-6 bottom-7  sm:right-2 flex flex-col sm:flex-col items-end sm:items-center space-y-4 sm:space-y-6 z-40">
       {showButtons && (
         <>
           <button
@@ -47,7 +47,7 @@ const Quick = () => {
           </button>
         </>
       )}
-    </div> */}
+    </div>
             {/* YouTube Icon */}
             <div
                 className="p-2 sm:p-2 bg-white text-red-500 rounded-full cursor-pointer hover:bg-gray-200 hover:text-black transition-all duration-300 animate-pulse"

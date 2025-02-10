@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import hero from "../assets/hero.webp";
-import { IoLogoWhatsapp } from "react-icons/io";
 
 const Hero = () => {
   return (
@@ -24,12 +23,7 @@ const Hero = () => {
             <h1>Get In Touch</h1>
           </Link>
 
-          <div
-            className="ml-2 sm:p-3 z-50 bg-white text-green-500 rounded-full cursor-pointer hover:bg-gray-200 hover:text-black transition-all duration-300 fixed left-0 animate-moveUpDown"
-            onClick={() => window.open('https://wa.me/916005227426?text=Hello%2C%20I%20want%20to%20know%20more%20about%20your%20services', '_blank')}
-          >
-            <IoLogoWhatsapp className="w-6 h-6 sm:w-8 sm:h-8" />
-          </div>
+          
         </div>
 
         <div className="hidden lg:block animate-slideInFromRightWithAngle relative w-full lg:w-[400px] h-[500px] rounded-2xl overflow-hidden shadow-red-400">

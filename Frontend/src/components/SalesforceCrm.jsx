@@ -5,6 +5,8 @@ import  { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css"
 import { Address } from './Address';
+import Quick from './Quick';
+import WhatsApp from './WhatsApp';
 
 
 
@@ -19,6 +21,8 @@ const SalesforceCrm = () => {
   return (
     <div>
         <Navbar/>
+        <Quick/>
+        <WhatsApp/>
 
 
 
