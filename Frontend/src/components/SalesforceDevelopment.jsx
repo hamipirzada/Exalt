@@ -29,7 +29,7 @@ const SalesforceDevelopment = () => {
 
         <div>
         <h1 className="text-center text-4xl font-bold mt-10">Salesforce Development</h1>
-        <p className="text-center text-xl mt-5 p-24">From startups to enterprises, we help organizations make more out of their Salesforce CRM. We are end-to-end Salesforce experts. And yes, we will forever redefine how you use Salesforce.</p>
+        <p className="text-center text-xl mt-5 sm:mr-11 sm:ml-11 ">From startups to enterprises, we help organizations make more out of their Salesforce CRM. We are end-to-end Salesforce experts. And yes, we will forever redefine how you use Salesforce.</p>
     </div>
 
 

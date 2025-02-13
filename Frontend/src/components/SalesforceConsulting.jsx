@@ -54,7 +54,7 @@ const SalesforceConsulting = () => {
 
         
   {/* Card 1 */}
-  <div className="card bg-gray-300 p-4 rounded-lg shadow-md w-full h-screen" data-aos="fade-right">
+  <div className="card bg-gray-300 p-4 rounded-lg shadow-md w-fit h-fit" data-aos="fade-right">
     <img
       src="https://images.pexels.com/photos/7176026/pexels-photo-7176026.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
       alt="Card Image 1"
@@ -68,12 +68,12 @@ const SalesforceConsulting = () => {
       migration from another CRM to Salesforce, or if you are only planning to
       get your sales, marketing or customer service activities digitized with
       CRM. We analyze the customer’s requirements and business needs and offer
-      ways of addressing them in full with Salesforce capabilities.
+      ways of addressing them in full with Salesforce capabilities.We also offer customization and integration to align Salesforce with your workflows.
     </p>
   </div>
 
   {/* Card 2 */}
-  <div className="card bg-gray-300 p-4 rounded-lg shadow-md w-full h-screen" data-aos="fade-left" >
+  <div className="card bg-gray-300 p-4 rounded-lg shadow-md w-fit  h-fit" data-aos="fade-left" >
     <img
       src="https://images.pexels.com/photos/3854816/pexels-photo-3854816.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
       alt="Card Image 2"
@@ -156,7 +156,7 @@ const SalesforceConsulting = () => {
     {/* User Adoption Strategy */}
     <div className="bg-gradient-to-r from-indigo-500  to-pink-400 p-6 rounded-lg shadow-md max-w-3xl mx-auto" data-aos="fade-down">
       <h3 className="text-2xl font-semibold mb-4">Designing a User Adoption Strategy</h3>
-      <p className="text-gray-600">
+      <p className="text-white">
         To help your users master the new system, we create a user adoption strategy that includes iterative user training, timely user support by the Salesforce admin, release notes, and rewards for advanced Salesforce users.
       </p>
     </div>

@@ -102,7 +102,7 @@ const SalesforceClm = () => {
 
 
 <div className='flex items-center justify-center flex-col mt-6'>
-<h1 className='text-5xl'>Conga CLM Offerings & GoExalt System Services </h1>
+<h1 className='text-3xl lg:text-5xl  p-4'>Conga CLM Offerings & GoExalt System Services </h1>
 <h4 className='text-xl'>
 GoExalt System is a preferred Conga partner for transforming manual contracting process into a smarter technology.
 </h4>
