@@ -33,7 +33,7 @@ const SalesforceBilling = () => {
     
     
     
-            <div className="max-w-5xl mt-9 ml-10">
+            <div className="max-w-5xl mt-9 ml-5 mr-5">
 
    
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-accent mb-4">
@@ -78,7 +78,7 @@ const SalesforceBilling = () => {
      
 
     <div className="lg:h-[150px] mt-5 pb-4 flex text-center justify-center">
-  <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold">
+  <h1 className="text-2xl lg:text-5xl md:text-6xl font-extrabold">
     <samp className="text-accent">-</samp> Our Success Stories <samp className="text-accent">-</samp>
   </h1>
 </div>

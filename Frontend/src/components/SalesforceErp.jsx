@@ -150,8 +150,8 @@ const SalesforceErp = () => {
 
 <div className="lg:p-8 sm:p-4  ">
       {/* Centered Heading */}
-      <div className='  h-[150px] flex text-center mt-7 justify-center'>
-        <h1 className='text-5xl font-extrabold '><samp className='text-accent'>-</samp> Our Success Stories <samp className='text-accent'>-</samp> </h1>
+      <div className='  h-[100px] flex text-center mt-7 justify-center'>
+        <h1 className='text-2xl lg:text-5xl font-extrabold '><samp className='text-accent'>-</samp> Our Success Stories <samp className='text-accent'>-</samp> </h1>
     </div>
 
       {/* Cards Container */}

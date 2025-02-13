@@ -40,7 +40,7 @@ const SalesforceTraining = () => {
 
 
 
-        <div className="max-w-5xl mt-9 ml-10">
+        <div className="max-w-5xl mt-9 ml-5 mt-5">
         <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-accent mb-4">
         Salesforce Training
         </h1>

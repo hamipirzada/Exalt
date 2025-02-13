@@ -42,7 +42,7 @@ const SalesforceEngineering = () => {
                 
                 
                 
-  <div className="max-w-5xl h-full mt-9 ml-10">
+  <div className="max-w-5xl h-full mt-9 ml-5 mr-5">
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-accent mb-4">
           Our Data Engineering & Integrations Portfolio
           </h1>
@@ -86,7 +86,7 @@ const SalesforceEngineering = () => {
      </div>
    
      {/* Card 2 */}
-     <div className="bg-white shadow-md rounded-2xl p-6 w-full sm:w-[calc(60%-16px)] lg:w-[calc(40%-24px)] max-w-md h-96 flex flex-col justify-between" data-aos="fade-right">
+     <div className="bg-white shadow-md h-fit rounded-2xl p-6 w-full sm:w-[calc(60%-16px)] lg:w-[calc(40%-24px)] max-w-md  flex flex-col justify-between" data-aos="fade-right">
        <h1 className="text-green-500">
          <CiDatabase size={30} />
        </h1>
@@ -170,7 +170,7 @@ const SalesforceEngineering = () => {
    <div className="flex mt-10 flex-wrap justify-center items-start gap-6">
    <div className="flex mt-10 flex-wrap justify-center items-start gap-6 w-[80%]">
    <p className='text-4xl' >Exclusive Insight</p>
-   <h1 className='text-4xl text-accent'>Know All About CPQ & How to Capitalize on Its Benefits</h1>
+   <h1 className='text-2xl lg:text:4xl  text-accent'>Know All About CPQ & How to Capitalize on Its Benefits</h1>
    </div>
    </div>
    

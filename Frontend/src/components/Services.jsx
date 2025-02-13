@@ -175,7 +175,7 @@ const Services = () => {
      
 
       <div className="lg:h-[150px] mt-5  flex text-center justify-center">
-  <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold">
+  <h1 className="text-3xl sm:text-5xl md:text-6xl font-extrabold">
     <samp className="text-accent">-</samp>  Our Expertise In Salesforce  <samp className="text-accent">-</samp>
   </h1>
 </div>
@@ -185,7 +185,7 @@ const Services = () => {
 
 
 <div className="lg:h-[100px] mt-5 pb-4 flex text-center justify-center">
-  <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold">
+  <h1 className="text-2xl sm:text-4xl md:text-5xl font-extrabold">
       Salesforce Development  
   </h1>
 </div>
@@ -237,7 +237,7 @@ const Services = () => {
 
     
     <div className="lg:h-[100px] mt-10   flex text-center justify-center">
-  <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold">
+  <h1 className="text-2xl sm:text-4xl md:text-5xl font-extrabold">
       Salesforce Mobile Development  
   </h1>
 </div>
@@ -294,7 +294,7 @@ const Services = () => {
 
 
     <div className="lg:h-[100px] mt-10   flex text-center justify-center">
-  <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold">
+  <h1 className="text-2xl sm:text-4xl md:text-5xl font-extrabold">
       Salesforce App-Exchange Development  
   </h1>
 </div>
@@ -339,8 +339,8 @@ const Services = () => {
     </div>
 
 
-    <div className="lg:h-[100px] mt-10  flex text-center justify-center">
-  <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold">
+    <div className="lg:h-[100px] mt-10  mb-4 flex text-center justify-center">
+  <h1 className="text-2xl sm:text-4xl md:text-5xl font-extrabold">
       Salesforce Lightning Development  
   </h1>
 </div>
@@ -395,8 +395,8 @@ const Services = () => {
       {/* Header Title */}
 
 
-      <div className="lg:h-[150px] mt-20  pb-4 flex text-center justify-center">
-  <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold">
+      <div className="lg:h-[150px] mt-10  pb-4 flex text-center justify-center">
+  <h1 className="text-3xl sm:text-5xl md:text-6xl font-extrabold">
     <samp className="text-accent">-</samp>  Python Developing  <samp className="text-accent">-</samp>
   </h1>
 </div>
@@ -449,8 +449,8 @@ const Services = () => {
 
 
 
-      <div className="lg:h-[150px] mt-20  pb-4 flex text-center justify-center">
-  <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold">
+      <div className="lg:h-[150px] mt-10  pb-4 flex text-center justify-center">
+  <h1 className="text-3xl sm:text-5xl md:text-6xl font-extrabold">
     <samp className="text-accent">-</samp>  PHP Website Application Development Service  <samp className="text-accent">-</samp>
   </h1>
 </div>
@@ -491,8 +491,8 @@ const Services = () => {
      <div className="w-full">
       {/* Header Title */}
 
-      <div className="lg:h-[150px] mt-20  pb-4 flex text-center justify-center">
-  <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold">
+      <div className="lg:h-[150px] mt-10  pb-4 flex text-center justify-center">
+  <h1 className="text-3xl sm:text-5xl md:text-6xl font-extrabold">
     <samp className="text-accent">-</samp>  HTML CSS & JS  <samp className="text-accent">-</samp>
   </h1>
 </div>
@@ -584,7 +584,7 @@ data-aos="fade-right" >
 
 
   <div className="lg:h-[100px] mt-10  flex text-center justify-center">
-  <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold">
+  <h1 className="text-3xl sm:text-5xl md:text-6xl font-extrabold">
       Odoo Customization  
   </h1>
 </div>
@@ -624,7 +624,7 @@ data-aos="fade-right" >
 
         <div className="w-full mt-5">
         <div className="lg:h-[100px] mt-10  flex text-center justify-center">
-  <h1 className="text-4xl sm:text-4xl md:text-6xl font-extrabold">
+  <h1 className="text-3xl sm:text-4xl md:text-6xl font-extrabold">
       Odoo Customization  Process
   </h1>
 </div>
@@ -770,7 +770,7 @@ data-aos="fade-right" >
 
         <div className="max-w-7xl mx-auto p-8" data-aos="fade-up" >
       {/* Main Heading */}
-      <h2 className="text-4xl font-bold text-center  mb-8" data-aos="fade-up">
+      <h2 className="text-3xl font-bold text-center  mb-8" data-aos="fade-up">
       Building apps on mobile platforms where your customers are
       </h2>
 
@@ -838,7 +838,7 @@ data-aos="fade-right" >
 
         <div className="max-w-7xl mx-auto p-8" data-aos="fade-up" >
       {/* Main Heading */}
-      <h2 className="text-4xl font-bold text-center mb-8" data-aos="fade-up">
+      <h2 className="text-3xl font-bold text-center mb-8" data-aos="fade-up">
       Skyrocket your visibility, foster lasting customer relationships, and soar ahead of your competitors.
       </h2>
 
@@ -1045,7 +1045,7 @@ data-aos="fade-right" >
 
         <div className="max-w-7xl mx-auto p-8" data-aos="fade-up" >
       {/* Main Heading */}
-      <h1 className="text-4xl font-bold text-center  mb-8" data-aos="fade-up">
+      <h1 className="text-3xl font-bold text-center  mb-8" data-aos="fade-up">
       Make the most out of your Marketing Cloud investment
       </h1>
 

@@ -33,7 +33,7 @@ const SalesforceConsulting = () => {
 
 
 
-    <div className="max-w-3xl mt-6 ml-6">
+    <div className="max-w-3xl mt-6 ml-5 mr-5">
         <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-accent mb-4">
         Salesforce Consulting 
         </h1>
@@ -79,7 +79,7 @@ const SalesforceConsulting = () => {
       alt="Card Image 2"
       className="rounded-lg mb-4"
     />
-    <h3 className="text-xl font-bold mb-2">
+    <h3 className="text-xl font-bold ">
       Improvement of an existing solution for better coverage of business needs
     </h3>
     <p className="text-gray-600">
@@ -106,8 +106,8 @@ const SalesforceConsulting = () => {
 
         </h1>
 
-        <div className="lg:h-[150px] mt-5 pb-4 flex text-center justify-center">
-  <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold">
+        <div className="lg:h-[100px] mb-4 flex text-center justify-center">
+  <h1 className="sm:text-4xl text-3xl md:text-6xl font-extrabold">
     <samp className="text-accent">-</samp> What Our Salesforce Consultants Do <samp className="text-accent">-</samp>
   </h1>
 </div>
@@ -116,7 +116,7 @@ const SalesforceConsulting = () => {
 
      
         
-  <p className="text-center ml-10 w-[90%]   text-lg mb-8">
+  <p className="text-center ml-10 w-[90%] mb-8  text-lg ">
     If you plan to implement Salesforce or improve your existing solution, GoExalt System provides comprehensive consulting, which includes:
   </p>
 

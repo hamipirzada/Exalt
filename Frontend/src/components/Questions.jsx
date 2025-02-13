@@ -36,9 +36,9 @@ const Questions = () => {
         ];
   return (
     <>
-    <div className="w-full sm:w-11/12 md:w-10/12 lg:w-9/12 xl:w-8/12 max-w-5xl mx-auto my-10 p-6 ">
-<h1 className="text-5xl">Frequently Asked Questions</h1></div>
-  <div className="w-[90vw] sm:w-11/12 md:w-10/12 lg:w-9/12 xl:w-8/12 max-w-5xl mx-auto my-10 p-6 bg-gradient-to-tr  border-gray-200 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300" data-accordion="collapse">
+    <div className="w-full sm:w-11/12 md:w-10/12 lg:w-9/12 xl:w-8/12 max-w-5xl pl-3 mx-auto my-10  ">
+<h1 className=" text-3xl lg:text-5xl">Frequently Asked Questions</h1></div>
+  <div className="w-[90vw] sm:w-11/12 md:w-10/12 lg:w-9/12 xl:w-8/12 max-w-5xl mx-auto my-10  bg-gradient-to-tr  border-gray-200 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300" data-accordion="collapse">
 
 {
   faq.map((item, index)=>{

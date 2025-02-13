@@ -39,7 +39,7 @@ const SalesforceCrm = () => {
                 
                 
                 
-  <div className="max-w-5xl h-full mt-9 ml-10">
+  <div className="max-w-5xl h-full mt-9 ml-5 mr-5">
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-accent mb-4">
           Our CRM Portfolio
           </h1>
@@ -127,7 +127,7 @@ const SalesforceCrm = () => {
    <div className="flex mt-10 flex-wrap justify-center items-start gap-6">
 <div className="flex mt-10 flex-wrap justify-center items-start gap-6 w-[80%]">
 <p className='text-4xl' >Exclusive Insight</p>
-<h1 className='text-4xl text-accent'>Know All About CPQ & How to Capitalize on Its Benefits</h1>
+<h1 className='lg:text-4xl text-2xl text-accent'>Know All About CPQ & How to Capitalize on Its Benefits</h1>
 </div>
 </div>
 
@@ -138,8 +138,8 @@ const SalesforceCrm = () => {
 <div className="lg:p-8 sm:p-4 ">
       {/* Centered Heading */}
       <div className="lg:h-[150px] mt-5 pb-4 flex text-center justify-center">
-  <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold">
-    <samp className="text-accent">-</samp>  Our Success Stories  <samp className="text-accent">-</samp>
+  <h1 className="text-2xl sm:text-5xl md:text-6xl font-extrabold">
+    <samp className="lg:text-4xl text-3xl text-accent">-</samp>  Our Success Stories  <samp className="text-accent">-</samp>
   </h1>
 </div>
 

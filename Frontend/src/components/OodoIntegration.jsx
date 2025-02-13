@@ -33,7 +33,7 @@ const OodoIntegration = () => {
           <div>
             {/* Background Image */}
             <div
-              className="flex items-center justify-center flex-col gap-9 h-[80vh] w-full bg-center"  data-aos="fade-down-right"
+              className="flex items-center justify-center flex-col gap-9 h-[70vh] w-full bg-center"  data-aos="fade-down-right"
               style={{
                 backgroundImage: `url(${ "https://images.pexels.com/photos/23638660/pexels-photo-23638660/free-photo-of-man-sitting-and-working-at-workshop.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"})`,
                 backgroundSize: "cover", 
@@ -44,9 +44,7 @@ const OodoIntegration = () => {
                 alt="Oodo product logo"
                 className="rounded-lg shadow-md animate-moveUpDown"
               />
-              <h1 className="text-5xl font-bold text-center text-white uppercase">
-                Odoo Integration
-              </h1>
+          
             </div>
             
 

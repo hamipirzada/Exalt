@@ -28,15 +28,15 @@ const SalesforceCfq = () => {
 
 
          <div className="relative h-[450px] bg-cover overflow-hidden flex items-center justify-center  " data-aos="fade-right">
-                                <img
-                                  className="absolute top-0 left-0 w-full h-full object-cover"
-                                  src={salesforce}
-                                  alt="Salesforce Training Background"
-                                />
+                <img
+                  className="absolute top-0 left-0 w-full h-full object-cover"
+                  src={salesforce}
+                    alt="Salesforce Training Background"
+                  />
                                 {/* <h1 className="relative uppercase lg:text-5xl font-extrabold  z-10 mt-12 text-black sm:text-xl overflow-y-hidden">
                                   SALESFORCE CFQ
                                 </h1> */}
-                        </div>
+            </div>
                 
                 
                 
@@ -162,7 +162,7 @@ const SalesforceCfq = () => {
 <div className="flex mt-10 flex-wrap justify-center items-start gap-6">
 <div className="flex mt-10 flex-wrap justify-center items-start gap-6 w-[80%]">
 <p className='text-4xl' >Exclusive Insight</p>
-<h1 className='text-4xl text-accent'>Know All About CPQ & How to Capitalize on Its Benefits</h1>
+<h1 className='lg:text-4xl text-3xl text-accent'>Know All About CPQ & How to Capitalize on Its Benefits</h1>
 </div>
 </div>
 
@@ -173,7 +173,7 @@ const SalesforceCfq = () => {
       {/* Centered Heading */}
 
       <div className="lg:h-[150px] mt-5 pb-4 flex text-center justify-center">
-  <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold">
+  <h1 className="lg:text-5xl text-2xl  font-extrabold">
     <samp className="text-accent">-</samp>  Our Success Stories  <samp className="text-accent">-</samp>
   </h1>
 </div>

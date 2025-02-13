@@ -103,7 +103,7 @@ const SalesforceClm = () => {
 
 <div className='flex items-center justify-center flex-col mt-6'>
 <h1 className='text-3xl lg:text-5xl  p-4'>Conga CLM Offerings & GoExalt System Services </h1>
-<h4 className='text-xl'>
+<h4 className='text-xl pl-5 pr-5'>
 GoExalt System is a preferred Conga partner for transforming manual contracting process into a smarter technology.
 </h4>
 </div>
@@ -151,7 +151,7 @@ GoExalt System is a preferred Conga partner for transforming manual contracting 
   {/* <!-- Main Heading --> */}
 
   <div className="lg:h-[150px] mt-5 pb-4 flex text-center justify-center">
-  <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold">
+  <h1 className="text-2xl sm:text-5xl md:text-6xl font-extrabold">
    <samp className="text-accent">-</samp> GoExalt System Services  <samp className="text-accent">-</samp>
   </h1>
 </div>
@@ -242,8 +242,8 @@ GoExalt System is a preferred Conga partner for transforming manual contracting 
   {/* Centered Heading */}
 
   <div className="lg:h-[150px] mt-5 pb-4 flex text-center justify-center">
-  <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold">
-    <samp className="text-accent">-</samp> Our Success Stories <samp className="text-accent">-</samp>
+  <h1 className="text-2xl sm:text-5xl md:text-6xl font-extrabold">
+    <samp className="lg:text-4xl text-3xl text-accent">-</samp> Our Success Stories <samp className="text-accent">-</samp>
   </h1>
 </div>
 

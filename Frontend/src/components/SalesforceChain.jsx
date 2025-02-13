@@ -91,7 +91,7 @@ const SalesforceChain = () => {
 
    <div className="p-6 flex flex-col items-center">
    <div className="lg:h-[150px] mt-5 pb-4 flex text-center justify-center">
-  <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold">
+  <h1 className="text-3xl lg:text-5xl font-extrabold">
     <samp className="text-accent">-</samp>  Our SCM Portfolio  <samp className="text-accent">-</samp>
   </h1>
 </div>
@@ -128,8 +128,8 @@ const SalesforceChain = () => {
 
    <div className="lg:p-8 sm:p-4 ">
       {/* Centered Heading */}
-      <div className="lg:h-[150px] mt-5 pb-4 flex text-center justify-center">
-  <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold">
+      <div className="lg:h-[100px] mt-5 pb-4 flex text-center justify-center">
+  <h1 className="text-2xl lg:text-5xl md:text-6xl font-extrabold">
     <samp className="text-accent">-</samp>  Our Success Stories  <samp className="text-accent">-</samp>
   </h1>
 </div>

@@ -26,7 +26,7 @@ const Tab = ({ label, isActive, onClick }) => (
 // eslint-disable-next-line react/prop-types
 const Description = ({ text, isActive }) => (
   <div
-    className={`transition-all h-auto duration-500 ease-in-out ${
+    className={`transition-all text-justify h-auto duration-500 ease-in-out ${
       isActive ? "opacity-100 max-h-screen" : "opacity-0 max-h-0"
     } overflow-hidden`}
   >
@@ -48,7 +48,7 @@ const About = () => {
     about:
       "GoExalt System is a leading and trusted software solution provider offering product portfolio across various sectors like education healthcare and fitness. We have various customized product offerings for respective segments from schools to colleges and universities, from retailer to wholesaler in healthcare and from small to high client portfolio managing fitness clubs. Founded in 2017 in Pune, India, We have a great team who are well experienced and technically sound. We always strive to provide the best possible service to our clients, be it providing support during critical situations or fulfilling their customized requirements.",
     mission:
-      "Our motive is to provide premium quality products and time -ounded services to the customers at an affordable cost. We have built ourselves on the key pillars of smart people & smart solutions for business promotion. We have extensive experience in many diverse areas of software development. We provide extraordinary services that create the value of your business through information technology. In today’s economy, we fine-tune a business model design to deliver uniform client experience. Our customers have always found an integrated business promotion solution more valuable than a simple web presence.",
+      "Our motive is to provide premium quality products and time -bounded services to the customers at an affordable cost. We have built ourselves on the key pillars of smart people & smart solutions for business promotion. We have extensive experience in many diverse areas of software development. We provide extraordinary services that create the value of your business through information technology. In today’s economy, we fine-tune a business model design to deliver uniform client experience. Our customers have always found an integrated business promotion solution more valuable than a simple web presence.",
     vision:
       "Our vision is to be a global leader in software solutions, offering unparalleled services that transform the digital landscape for our clients. We aim to create a smarter, more connected world.",
   };
@@ -78,7 +78,7 @@ const About = () => {
       </div>
 
       {/* Text Content */}
-      <div className="relative z-10 text-center">
+      <div className="relative z-10 text-center ">
         {/* <h1 className="text-white text-5xl  font-extrabold" data-aos="fade-left">ABOUT US</h1> */}
       </div>
 
@@ -88,7 +88,7 @@ const About = () => {
   </div>
   {/* Images End Here */}
 
-  <div className="flex justify-center gap-7 mt-5 sm:gap-3" >
+  <div className="flex justify-center gap-7 mt-5 pr-5 pl-5 sm:gap-3 " >
     {Object.keys(tabContent).map((tab) => (
       <Tab
         key={tab}
@@ -114,11 +114,11 @@ const About = () => {
       ))}
 
       
-      <div className="flex flex-wrap gap-12 mt-16 " data-aos="fade-up">
+      <div className="flex flex-wrap gap-12 mt-16 pr-5 pl-5" data-aos="fade-up">
     
 
       
-        <div className="w-full flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-gray-100 to-gray-300 shadow-lg rounded-lg">
+        <div className="w-full flex items-center  justify-center py-12 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-gray-100 to-gray-300 shadow-lg rounded-lg">
         <div className="max-w-4xl space-y-6 text-center sm:text-left">
       <h1 className="text-3xl font-semibold text-gray-800">
       Why Choose Us?
@@ -133,7 +133,7 @@ const About = () => {
   
 
 
-      <div className="w-full flex flex-col items-center relative">
+      <div className="w-full flex flex-col pr-5 pl-5 items-center relative">
   {/* Our Story Section */}
   <div className="relative mb-12">
     <div className="w-full max-w-2xl p-8 rounded-2xl bg-gradient-to-r from-indigo-500  to-pink-400 shadow-lg text-center">

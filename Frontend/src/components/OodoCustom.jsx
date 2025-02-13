@@ -34,9 +34,7 @@ const OodoCustom = () => {
               alt="Oodo product logo"
               className="rounded-lg shadow-md animate-moveUpDown"
             />
-            <h1 className="text-5xl font-bold text-center text-white">
-             ODOO CUSTOMIZATION
-            </h1>
+          
           </div>
 
           <div className=" py-16 px-6">

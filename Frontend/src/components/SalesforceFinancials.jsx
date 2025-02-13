@@ -84,10 +84,10 @@ const SalesforceFinancials = () => {
 
 
 
-<div className='flex justify-center items-center lg::mt-7 '>
+<div className='flex justify-center items-center '>
 
-<div className="lg:h-[150px] mt-5 pb-4 flex text-center justify-center">
-  <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold">
+<div className="lg:h-[100px] mt-10 flex text-center justify-center">
+  <h1 className="text-3xl lg:text-5xl md:text-6xl font-extrabold">
     <samp className="text-accent">-</samp>  Why GoExalt System for Financial Management  <samp className="text-accent">-</samp>
   </h1>
 </div>
@@ -179,8 +179,8 @@ const SalesforceFinancials = () => {
 
 <div className="lg:p-8 sm:p-4   ">
       {/* Centered Heading */}
-      <div className="lg:h-[150px] mt-5 pb-4 flex text-center justify-center">
-  <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold">
+      <div className="lg:h-[100px] mt-5 pb-4 flex text-center justify-center">
+  <h1 className="text-2xl lg:text-5xl font-extrabold">
     <samp className="text-accent">-</samp>  Our Success Stories  <samp className="text-accent">-</samp>
   </h1>
 </div>

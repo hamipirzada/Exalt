@@ -36,9 +36,7 @@ const OodoProducts = () => {
               alt="Oodo product logo"
               className="rounded-lg shadow-md animate-moveUpDown"
             />
-            <h1 className="text-5xl font-bold text-center text-white">
-              ODOO PRODUCTS
-            </h1>
+           
        
           </div>
 

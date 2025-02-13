@@ -31,11 +31,11 @@ const SalesforceLightning = () => {
       </div>
 
 
-      <div className="max-w-5xl mt-9 ml-10">
+      <div className="max-w-5xl mt-9 ml-5 mr-5">
         <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-accent mb-4">
         Salesforce Lightning
         </h1>
-        <p className="text-lg sm:text-xl  mb-6">
+        <p className="lg:text-lg text-lg  mb-6">
         Salesforce Lightning Web Components (LWC) is a modern UI framework for building web applications on the Salesforce platform. LWC is built using web standards like Web Components, JavaScript, and HTML, and it provides a powerful set of tools for building fast, responsive, and customizable applications. Some key features of LWC include: Component-based architecture: LWC is based on a component-based architecture, which makes it easy to reuse and compose components across different applications. Data binding: LWC supports data binding, which allows you to create dynamic and interactive user interfaces. Event-driven programming: LWC is event-driven, which means that components can communicate with each other through events. Server-side rendering: LWC supports server-side rendering, which can improve the performance of your application.
         </p>
         <Link
