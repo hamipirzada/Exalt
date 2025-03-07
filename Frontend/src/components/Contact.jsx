@@ -27,25 +27,50 @@ const Contact = () => {
     }
   }, [message]);
 
-  const sendEmail = (e) => {
+  const sendEmail = async (e) => {
     e.preventDefault();
 
-    emailjs
-      .sendForm("service_owxbiju", "template_o7drm5a", e.target, "WBQ_T6ayNzFZi7Ftb")
-      .then(
-        (result) => {
-          console.log("Success:", result.text);
-          setMessage("Message sent successfully!");
-          setMessageType("success");
-          e.target.reset(); // Clear form fields
-        },
-        (error) => {
-          console.log("Error:", error.text);
-          setMessage("Failed to send message. Please try again.");
-          setMessageType("error");
-        }
+    const formData = new FormData(e.target);
+    const data = Object.fromEntries(formData.entries()); // Convert to object
+    console.log(formData);
+    console.log(data);
+    
+    
+
+    try {
+      // Send email using EmailJS
+      await emailjs.sendForm(
+        "service_wi50ma2",
+        "template_zr6312g",
+        e.target,
+        "iCGnHB8MGQoCZDcSp"
       );
+
+      // Send form data to PostgreSQL via backend
+      const response = await fetch("http://localhost:5000/submit-form", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(data),
+      });
+
+      const result = await response.json();
+
+      if (result.success) {
+        setMessage("Message sent and saved successfully!");
+        setMessageType("success");
+        e.target.reset(); // Clear form fields
+      } else {
+        throw new Error("Failed to save in database");
+      }
+    } catch (error) {
+      console.error("Error:", error);
+      setMessage("Failed to send or save message. Please try again.");
+      setMessageType("error");
+    }
   };
+
 
   return (
     <>
@@ -53,74 +78,76 @@ const Contact = () => {
       <Quick />
       <WhatsApp />
       <div className="min-h-screen flex flex-col md:flex-row p-6">
-        <div className="shadow-md rounded-tl-full p-3 w-full md:w-1/2 mb-6 md:mb-0">
-          <h1 className="font-extrabold text-3xl mb-4">Contact Us</h1>
+      <div className="shadow-md rounded-tl-full p-3 w-full md:w-1/2 mb-6 md:mb-0">
+        <h1 className="font-extrabold text-3xl mb-4">Contact Us</h1>
 
-          <form
-            onSubmit={sendEmail}
-            className="backdrop-blur-lg p-4 rounded-lg shadow-xl outline-double space-y-6"
-          >
-            {/* Success or Error Message */}
-            {message && (
-              <p
-                className={`text-center p-3 rounded-lg ${
-                  messageType === "success" ? "bg-green-500 text-white" : "bg-red-500 text-white"
-                }`}
-              >
-                {message}
-              </p>
-            )}
+        <form
+          onSubmit={sendEmail}
+          className="backdrop-blur-lg p-4 rounded-lg shadow-xl outline-double space-y-6"
+        >
+          {/* Success or Error Message */}
+          {message && (
+            <p
+              className={`text-center p-3 rounded-lg ${
+                messageType === "success"
+                  ? "bg-green-500 text-white"
+                  : "bg-red-500 text-white"
+              }`}
+            >
+              {message}
+            </p>
+          )}
 
-            <div>
-              <input
-                type="text"
-                name="fullName"
-                placeholder="Full Name"
-                className="w-full px-4 py-3 bg-transparent rounded-xl outline-double focus:ring-2 focus:ring-accent focus:outline-none transition duration-300 ease-in-out z-50"
-                required
-              />
-            </div>
+          <div>
+            <input
+              type="text"
+              name="fullName"
+              placeholder="Full Name"
+              className="w-full px-4 py-3 bg-transparent rounded-xl outline-double focus:ring-2 focus:ring-accent focus:outline-none transition duration-300 ease-in-out z-50"
+              required
+            />
+          </div>
 
-            <div>
-              <input
-                type="email"
-                name="email"
-                placeholder="Your Email"
-                className="w-full px-4 py-3 bg-transparent outline-double rounded-xl focus:ring-2 focus:ring-accent focus:outline-none transition duration-300 ease-in-out"
-                required
-              />
-            </div>
+          <div>
+            <input
+              type="email"
+              name="email"
+              placeholder="Your Email"
+              className="w-full px-4 py-3 bg-transparent outline-double rounded-xl focus:ring-2 focus:ring-accent focus:outline-none transition duration-300 ease-in-out"
+              required
+            />
+          </div>
 
-            <div>
-              <input
-                type="tel"
-                name="phone"
-                placeholder="Phone Number"
-                className="w-full px-4 py-3 bg-transparent outline-double rounded-xl focus:ring-2 focus:ring-accent focus:outline-none transition duration-300 ease-in-out"
-                required
-              />
-            </div>
+          <div>
+            <input
+              type="tel"
+              name="phone"
+              placeholder="Phone Number"
+              className="w-full px-4 py-3 bg-transparent outline-double rounded-xl focus:ring-2 focus:ring-accent focus:outline-none transition duration-300 ease-in-out"
+              required
+            />
+          </div>
 
-            <div>
-              <textarea
-                name="message"
-                placeholder="Your Message"
-                rows="4"
-                className="w-full px-4 py-3 outline-double bg-transparent rounded-xl focus:ring-2 focus:ring-accent focus:outline-none transition duration-300 ease-in-out"
-                required
-              ></textarea>
-            </div>
+          <div>
+            <textarea
+              name="message"
+              placeholder="Your Message"
+              rows="4"
+              className="w-full px-4 py-3 outline-double bg-transparent rounded-xl focus:ring-2 focus:ring-accent focus:outline-none transition duration-300 ease-in-out"
+              required
+            ></textarea>
+          </div>
 
-            <div className="text-center">
-              <button
-                type="submit"
-                className="px-6 py-3 bg-accent text-white font-semibold rounded-full hover:bg-slate-700 transition duration-300"
-              >
-                Send Message
-              </button>
-            </div>
-          </form>
-        </div>
+          <div className="text-center">
+            <button
+              type="submit"
+              className="px-6 py-3 bg-accent text-white font-semibold rounded-full hover:bg-slate-700 transition duration-300"
+            >
+              Send Message
+            </button>
+          </div>
+        </form>
+      </div>
 
         {/* Right side content (Address, Working hours, Social Media, etc.) */}
         <div className="rounded-br-full p-3 w-full md:w-1/2">
