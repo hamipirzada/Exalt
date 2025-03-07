@@ -5,9 +5,8 @@ const { Pool } = require("pg");
 
 const app = express();
 app.use(cors());
-app.use(express.json()); // Middleware to parse JSON
+app.use(express.json()); 
 
-// PostgreSQL Connection
 const pool = new Pool({
   user: process.env.PG_USER,
   host: process.env.PG_HOST,
@@ -16,7 +15,6 @@ const pool = new Pool({
   port: process.env.PG_PORT,
 });
 
-// API Route to Save Form Data in PostgreSQL
 app.post("/submit-form", async (req, res) => {
   const { fullName, email, phone, message } = req.body;
 
@@ -37,7 +35,27 @@ app.post("/submit-form", async (req, res) => {
   }
 });
 
-// Start Server
+app.post("/submit-form-company", async (req, res) => {
+  const { fullName, companyName, phone, message } = req.body;
+
+  try {
+    const result = await pool.query(
+      "INSERT INTO form_submissions_company (full_name, company_name, phone, message) VALUES ($1, $2, $3, $4) RETURNING *",
+      [fullName, companyName, phone, message]
+    );
+
+    res.status(201).json({
+      success: true,
+      message: "Form submitted successfully",
+      data: result.rows[0],
+    });
+  } catch (error) {
+    console.error("Error saving form:", error);
+    res.status(500).json({ success: false, message: "Error saving form" });
+  }
+});
+
+
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);

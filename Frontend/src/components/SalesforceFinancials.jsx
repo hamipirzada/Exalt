@@ -2,17 +2,74 @@ import { Link } from 'react-router-dom'
 import salesforce from '../assets/Salesforce Logo.jpeg'
 import financials from '../assets/finalcial.png'
 import { Navbar } from "./Navbar"
-import  { useEffect } from "react";
+import  { useEffect, useState } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css"
 import { Address } from './Address';
 import Quick from './Quick';
 import WhatsApp from './WhatsApp';
+import emailjs from "emailjs-com";
+
 
 
  
 
 const SalesforceFinancials = () => {
+
+  const [message, setMessage] = useState(null);
+    const [messageType, setMessageType] = useState(""); // "success" or "error"
+  
+    useEffect(() => {
+      if (message) {
+        const timer = setTimeout(() => {
+          setMessage(null);
+        }, 3000);
+        return () => clearTimeout(timer);
+      }
+    }, [message]);
+  
+    const sendEmail = async (e) => {
+      e.preventDefault();
+  
+      const formData = new FormData(e.target);
+      const data = Object.fromEntries(formData.entries()); 
+      console.log(formData);
+      console.log(data);
+      
+      
+  
+      try {
+        await emailjs.sendForm(
+          "service_wi50ma2",
+          "template_zr6312g",
+          e.target,
+          "iCGnHB8MGQoCZDcSp"
+        );
+  
+        const response = await fetch("http://localhost:5000/submit-form-company", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(data),
+        });
+  
+        const result = await response.json();
+  
+        if (result.success) {
+          setMessage("Message sent and saved successfully!");
+          setMessageType("success");
+          e.target.reset();
+        } else {
+          throw new Error("Failed to save in database");
+        }
+      } catch (error) {
+        console.error("Error:", error);
+        setMessage("Failed to send or save message. Please try again.");
+        setMessageType("error");
+      }
+    };
+  
 
     useEffect(() => {
         AOS.init({ duration: 1000 });
@@ -238,10 +295,21 @@ const SalesforceFinancials = () => {
      <h1 className="font-extrabold text-3xl ">Talk To Our Expert</h1>
     
      <form
-       action="https://formsubmit.co/sales@exaltsystem.com" method="POST"
-      
+      onSubmit={sendEmail}
        className="bg-black/30 backdrop-blur-lg p-8 rounded-lg shadow-xl border border-white/30 space-y-6"
      >
+
+{message && (
+            <p
+              className={`text-center p-3 rounded-lg ${
+                messageType === "success"
+                  ? "bg-green-500 text-white"
+                  : "bg-red-500 text-white"
+              }`}
+            >
+              {message}
+            </p>
+          )}
 
 
        

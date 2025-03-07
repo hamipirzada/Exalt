@@ -31,14 +31,13 @@ const Contact = () => {
     e.preventDefault();
 
     const formData = new FormData(e.target);
-    const data = Object.fromEntries(formData.entries()); // Convert to object
+    const data = Object.fromEntries(formData.entries()); 
     console.log(formData);
     console.log(data);
     
     
 
     try {
-      // Send email using EmailJS
       await emailjs.sendForm(
         "service_wi50ma2",
         "template_zr6312g",
@@ -46,7 +45,6 @@ const Contact = () => {
         "iCGnHB8MGQoCZDcSp"
       );
 
-      // Send form data to PostgreSQL via backend
       const response = await fetch("http://localhost:5000/submit-form", {
         method: "POST",
         headers: {
