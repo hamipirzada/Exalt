@@ -40,10 +40,10 @@ const SalesforceFinancials = () => {
   
       try {
         await emailjs.sendForm(
-          "service_wi50ma2",
-          "template_zr6312g",
+          "service_owxbiju",
+          "template_o7drm5a",
           e.target,
-          "iCGnHB8MGQoCZDcSp"
+          "lQsxj_EfLgIDPcdMg"
         );
   
         const response = await fetch("http://localhost:5000/submit-form-company", {

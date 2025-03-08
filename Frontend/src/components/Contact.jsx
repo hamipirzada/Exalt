@@ -39,10 +39,10 @@ const Contact = () => {
 
     try {
       await emailjs.sendForm(
-        "service_wi50ma2",
-        "template_zr6312g",
-        e.target,
-        "iCGnHB8MGQoCZDcSp"
+       "service_owxbiju",
+          "template_o7drm5a",
+          e.target,
+          "lQsxj_EfLgIDPcdMg"
       );
 
       const response = await fetch("http://localhost:5000/submit-form", {
