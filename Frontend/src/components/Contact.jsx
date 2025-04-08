@@ -39,19 +39,21 @@ const Contact = () => {
 
     try {
       await emailjs.sendForm(
-       "service_owxbiju",
-          "template_o7drm5a",
+       "service_prvtuqo",
+          "template_a35xsvn",
           e.target,
-          "lQsxj_EfLgIDPcdMg"
+          "kgIQhBrJ1-5h1FbC-"
       );
 
+     // service_9lafuze
+     // template_jfc7ged
       const response = await fetch("http://localhost:5000/submit-form", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
         body: JSON.stringify(data),
-      });
+      }); 
 
       const result = await response.json();
 
