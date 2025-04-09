@@ -54,12 +54,12 @@ app.post("/submit-form", async (req, res) => {
 
 // Route to handle company form submissions
 app.post("/submit-form-company", async (req, res) => {
-  const { fullName, companyName, phone, message } = req.body;
+  const { fullName, companyName, email, phone, message } = req.body;
 
   try {
     const [result] = await pool.execute(
-      "INSERT INTO form_submissions_company (full_name, company_name, phone, message) VALUES (?, ?, ?, ?)",
-      [fullName, companyName, phone, message]
+      "INSERT INTO form_submissions_company (full_name, company_name, email, phone, message) VALUES (?, ?, ?, ?, ?)",
+      [fullName, companyName,email, phone, message]
     );
 
     res.status(201).json({
