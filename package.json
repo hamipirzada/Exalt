@@ -1,4 +1,9 @@
 {
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cd frontend && cd backend && npm install && npm run build"
+
+  },
   "dependencies": {
     "emailjs-com": "^3.2.0"
   }

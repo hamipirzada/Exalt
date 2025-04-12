@@ -7,6 +7,14 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
+// 🔥 Serve React static files
+app.use(express.static(path.join(__dirname, '../frontend/dist')));
+
+// ✅ Catch-all route for React Router
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, '../frontend/dist/index.html'));
+});
+
 // Create a MySQL connection pool
 const pool = mysql.createPool({
   host: process.env.MYSQL_HOST,

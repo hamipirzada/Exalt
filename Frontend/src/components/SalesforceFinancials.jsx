@@ -30,14 +30,13 @@ const SalesforceFinancials = () => {
   
     const sendEmail = async (e) => {
       e.preventDefault();
-  
+    
       const formData = new FormData(e.target);
-      const data = Object.fromEntries(formData.entries()); 
+      const data = Object.fromEntries(formData.entries());
+    
       console.log(formData);
       console.log(data);
-      
-      
-  
+    
       try {
         await emailjs.sendForm(
           "service_prvtuqo",
@@ -45,27 +44,13 @@ const SalesforceFinancials = () => {
           e.target,
           "kgIQhBrJ1-5h1FbC-"
         );
-  
-        const response = await fetch("http://localhost:5000/submit-form-company", {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify(data),
-        });
-  
-        const result = await response.json();
-  
-        if (result.success) {
-          setMessage("Message sent and saved successfully!");
-          setMessageType("success");
-          e.target.reset();
-        } else {
-          throw new Error("Failed to save in database");
-        }
+    
+        setMessage("Message sent successfully!");
+        setMessageType("success");
+        e.target.reset(); // Clear form fields
       } catch (error) {
         console.error("Error:", error);
-        setMessage("Failed to send or save message. Please try again.");
+        setMessage("Failed to send message. Please try again.");
         setMessageType("error");
       }
     };
