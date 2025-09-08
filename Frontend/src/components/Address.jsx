@@ -39,14 +39,14 @@ export const Address = () => {
       
 
         </div>
+        <div>
          <h1 className="text-xl font-bold ">HEAD OFFICE</h1>
          <p className="text-lg ">
-           Office No. 136 & 137, First Floor, <br />
-            Right Wing, 
-           Arish Complex, <br /> Model Town-D, 
-         193201 </p>
+            2624 Mckenzie Rd
+            Ellicott City, <br /> Maryland, 
+         21042 </p>
           <p>info@exaltsystem.com <br />
-         +91-7006334491</p>
+         +1 (667) 452-0819</p>
          
        </div>
 
@@ -60,14 +60,14 @@ export const Address = () => {
       
 
         </div>
-         <h1 className="text-xl font-bold uppercase">Branch Office USA</h1>
+         <h1 className="text-xl font-bold uppercase">Branch Office Kashmir</h1>
          <p className="text-lg ">
-         3255 Normandy Woods  <br />
-         Dr. Ellicott City Maryland, <br />
-         MD 21043, USA</p>
+         Office No. 136 & 137, First Floor,
+         Right Wing, Arish Complex, <br />
+         Model Town-D, 193201</p>
          <p>
           sales@exaltsystem.com <br />
-          +1-443-851-3193
+          +91-7006334491
           </p>
          
        </div>
@@ -82,10 +82,10 @@ export const Address = () => {
           <GiTreeBranch className="text-3xl " />
           </div>
       
-
+</div>
         </div>
          
-         <h1 className="text-xl font-bold  ">BRANCH OFFICE IND</h1>
+         <h1 className="text-xl font-bold  ">BRANCH OFFICE Pune</h1>
          <p className="text-lg ">
            602 - Chester, Nyati Eternity,
            <br /> Pune 411060, Maharashtra
